@@ -39,7 +39,7 @@ public class CreateRideBDWhiteTest {
 				driver=null;
 
 				String rideFrom="Donostia";
-				String rideTo="Zarautz";
+				String rideTo="Zarautzzzz";
 				
 				String driverUsername=null;
 
