@@ -337,10 +337,17 @@ public class DataAccess {
 	}
 
 	public User getUser(String erab) {
-		TypedQuery<User> query = db.createQuery("SELECT u FROM User u WHERE u.username = :username", User.class);
-		query.setParameter("username", erab);
-		return query.getSingleResult();
+	    TypedQuery<User> query = db.createQuery("SELECT u FROM User u WHERE u.username = :username", User.class);
+	    query.setParameter("username", erab);
+	    
+	    List<User> results = query.getResultList();  // Devuelve una lista en lugar de un único resultado
+	    if (results.isEmpty()) {
+	        return null;  // Si no hay resultados, retorna null
+	    } else {
+	        return results.get(0);  // Si hay resultados, retorna el primero (el único esperado)
+	    }
 	}
+
 
 	public double getActualMoney(String erab) {
 		TypedQuery<Double> query = db.createQuery("SELECT u.money FROM User u WHERE u.username = :username",
@@ -479,7 +486,7 @@ public class DataAccess {
 
 	public boolean gauzatuEragiketa(String username, double amount, boolean deposit) {
 		try {
-			db.getTransaction().begin();
+			db.getTransaction().begin(); 
 			User user = getUser(username);
 			if (user != null) {
 				double currentMoney = user.getMoney();
@@ -1029,5 +1036,8 @@ public class DataAccess {
 			return null;
 		}
 	}
+	
+	
+
 
 }

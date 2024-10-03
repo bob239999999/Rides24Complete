@@ -11,6 +11,7 @@ import javax.persistence.Persistence;
 import configuration.ConfigXML;
 import domain.Driver;
 import domain.Ride;
+import domain.User;
 
 
 public class TestDataAccess {
@@ -133,6 +134,20 @@ public class TestDataAccess {
 			return null;
 
 		}
+		
+		public boolean createUser(User user) {
+		    try {
+		        db.getTransaction().begin();
+		        db.persist(user); // Esto guarda el usuario en la base de datos
+		        db.getTransaction().commit();
+		        return true;
+		    } catch (Exception e) {
+		        e.printStackTrace();
+		        db.getTransaction().rollback();
+		        return false;
+		    }
+		}
+
 
 
 		
