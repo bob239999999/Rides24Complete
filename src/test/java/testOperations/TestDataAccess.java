@@ -138,7 +138,7 @@ public class TestDataAccess {
 		public boolean createUser(User user) {
 		    try {
 		        db.getTransaction().begin();
-		        db.persist(user); // Esto guarda el usuario en la base de datos
+		        db.persist(user); // guardando el usuario en la base de datos
 		        db.getTransaction().commit();
 		        return true;
 		    } catch (Exception e) {
@@ -147,6 +147,29 @@ public class TestDataAccess {
 		        return false;
 		    }
 		}
+		
+		public void eliminarUsuarioDirecto(User usuario) {
+		    try {
+		        // Iniciar la transacción
+		        db.getTransaction().begin();
+
+		        // Unir el usuario al contexto de persistencia
+		        usuario = db.merge(usuario);
+
+		        // Eliminar el usuario de la base de datos
+		        db.remove(usuario);
+
+		        // Comprometer la transacción
+		        db.getTransaction().commit();
+		    } catch (Exception e) {
+		        // Revertir la transacción si ocurre un error
+		        if (db.getTransaction().isActive()) {
+		            db.getTransaction().rollback();
+		        }
+		        e.printStackTrace();
+		    }
+		}
+
 
 
 
