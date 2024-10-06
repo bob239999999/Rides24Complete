@@ -1,0 +1,7 @@
+pruebaGUI#main([Ljava/lang/String;)V
+9c18aa21639f365bcf81d406c9b291d6
+gui.MainGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+gui.MainGUI#instance-init#
+gui.MainGUI#<init>()V
+==
+setVisible java.awt.Window#setVisible(Z)V

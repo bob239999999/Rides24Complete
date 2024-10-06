@@ -1,0 +1,5 @@
+businessLogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)V
+1f0f02418da158839e7fc47ac5fc49e4
+configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V

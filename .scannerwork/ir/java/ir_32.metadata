@@ -1,0 +1,7 @@
+gui.BookGUI#paintDaysWithEvents(LJCalendar;Ljava/util/List;Ljava/awt/Color;)V
+cf84fa58657f8eab59bc66c8d525e96a
+java.util.Calendar#setTime(Ljava/util/Date;)V
+==
+setBackground java.awt.Component#setBackground(Ljava/awt/Color;)V
+set java.util.Calendar#set(II)V
+get java.util.Calendar#get(I)I

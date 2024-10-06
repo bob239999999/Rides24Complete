@@ -1,0 +1,5 @@
+dataAccess.DataAccess#getComplaintsByBook(Ldomain/Booking;)Ldomain/Complaint;
+bc94d9e6de844f4d22c8132b5ea9d3a0
+==
+isEmpty java.util.List#isEmpty()Z
+get java.util.List#get(I)Ljava/lang/Object;
