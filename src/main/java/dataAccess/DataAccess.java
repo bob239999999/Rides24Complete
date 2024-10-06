@@ -11,6 +11,7 @@ import java.util.ResourceBundle;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.NoResultException;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
@@ -19,6 +20,7 @@ import configuration.UtilDate;
 import domain.*;
 import exceptions.RideAlreadyExistException;
 import exceptions.RideMustBeLaterThanTodayException;
+import main.java.dataAccess.User;
 
 /**
  * It implements the data access to the objectDb database
@@ -336,15 +338,18 @@ public class DataAccess {
 		System.out.println("DataAcess closed");
 	}
 
+	
+	
 	public User getUser(String erab) {
 	    TypedQuery<User> query = db.createQuery("SELECT u FROM User u WHERE u.username = :username", User.class);
 	    query.setParameter("username", erab);
 	    
-	    List<User> results = query.getResultList();  // Devuelve una lista en lugar de un único resultado
-	    if (results.isEmpty()) {
-	        return null;  // Si no hay resultados, retorna null
-	    } else {
-	        return results.get(0);  // Si hay resultados, retorna el primero (el único esperado)
+	    try {
+	        User result = query.getSingleResult();
+	        return result;  // Return the found user
+	    } catch (NoResultException e) {
+	        // If no user is found, return null
+	        return null;
 	    }
 	}
 
