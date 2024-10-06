@@ -68,7 +68,7 @@ public class BaloraGUI extends JFrame {
 				us.setBalkop(kop + 1);
 				appFacadeInterface.updateUser(us);
 
-				jButtonClose_actionPerformed(e);
+				jButtonCloseActionPerformed(e);
 			}
 		});
 		baloratu.setBounds(new Rectangle(100, 263, 130, 30));
@@ -84,7 +84,8 @@ public class BaloraGUI extends JFrame {
 
 	}
 
-	private void jButtonClose_actionPerformed(ActionEvent e) {
+	private void jButtonCloseActionPerformed(ActionEvent e) 
+{
 		this.setVisible(false);
 	}
 }
