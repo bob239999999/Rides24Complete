@@ -1,0 +1,7 @@
+BookRideBDWhiteTest#testSuccesfulBoking()V
+d7fb9dad592ac9244b81f27ffdd25e6f
+==
+getMoney domain.User#getMoney()D
+getnPlaces domain.Ride#getnPlaces()I
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

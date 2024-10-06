@@ -1,9 +1,279 @@
 
- domain.Question#getBetMinimum()FI
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.java^ ^("1*£
-1I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.java_	 _("S
-I
-?/Users/iturrioz/git/Bets2021/src/main/java/domain/Question.java_ _(
-""B
-domain.Question
+BdataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)ZT
+H/Users/mac/git/Rides24Completee/src/main/java/dataAccess/DataAccess.javaè è("29*¸
+13
+® ®(„‡
+
+® ®("
+%13void"0domain.Traveler#addBookedRide(Ldomain/Booking;)V*9
+
+__unknown_file (
+
+travelerdomain.Traveler*7
+
+__unknown_file (
+
+bookingdomain.Booking2addBookedRide(Ldomain/Booking;)*
+12*&
+24
+ô ô("
+
+ô ô(
+""*∑
+14
+ß' ß(,ûõ
+
+ß ß(-
+%12void"domain.Ride#setnPlaces(I)V*1
+
+__unknown_file (
+
+ridedomain.Ride*"
+
+__unknown_file (
+""2setnPlaces(I)*
+13*∂
+25
+ò ò( ô
+ñ
+
+ò ò( 
+%3boolean"	__compare*!
+
+__unknown_file (
+<*'
+
+__unknown_file (
+	
+%2int*"
+
+__unknown_file (
+""*
+24
+23*é
+15
+ß ß(vt
+
+ß ß($
+
+%11int"domain.Ride#getnPlaces()I*1
+
+__unknown_file (
+
+ridedomain.Ride2getnPlaces()*
+14*ç
+26
+ò ò(us
+
+ò ò(	
+%2int"domain.Ride#getnPlaces()I*1
+
+__unknown_file (
+
+ridedomain.Ride2getnPlaces()*
+25*&
+27
+ï ï("
+
+ï ï(
+""*ƒ
+17
+§ §(
+´®
+
+§ §(
+%10void"domain.Booking#setDeskontua(D)V*7
+
+__unknown_file (
+
+bookingdomain.Booking*"
+
+__unknown_file (
+""2setDeskontua(D)*
+15*±
+28
+ì ì(-f
+d
+
+ì ì(-
+travelerdomain.Traveler"__id*3
+
+__unknown_file (
+
+%0domain.Traveler¨
+©
+
+î î(
+%1boolean"	__compare*"
+
+__unknown_file (
+==*9
+
+__unknown_file (
+
+travelerdomain.Traveler*"
+
+__unknown_file (
+""*
+26
+27*›
+18
+¢ ¢(8c
+a
+
+¢ ¢(8
+bookingdomain.Booking"__id*2
+
+__unknown_file (
+
+%7domain.Bookingﬂ‹
+
+£ £( 
+
+%9void".domain.Booking#setTraveler(Ldomain/Traveler;)V*7
+
+__unknown_file (
+
+bookingdomain.Booking*9
+
+__unknown_file (
+
+travelerdomain.Traveler2setTraveler(Ldomain/Traveler;)*
+17*õ
+29
+ì ì("Çˇ
+
+ì ì(,
+%0domain.Traveler"FdataAccess.DataAccess#getTraveler(Ljava/lang/String;)Ldomain/Traveler;*5
+
+__unknown_file (
+dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String2getTraveler(Ljava/lang/String;)*
+28*„
+19
+¢! ¢(%42
+
+¢ ¢( 
+%7domain.Booking"domain.Bookingî
+ë
+
+¢ ¢(7
+%8"7domain.Booking#<init>(Ldomain/Ride;Ldomain/Traveler;I)V*2
+
+__unknown_file (
+
+%7domain.Booking*1
+
+__unknown_file (
+
+ridedomain.Ride*9
+
+__unknown_file (
+
+travelerdomain.Traveler*"
+
+__unknown_file (
+""*
+18*%
+5
+Æ
+ Æ("
+
+Æ Æ(
+""*&
+20
+ü ü("
+
+ü ü(
+""*±
+21
+ù ù(1î
+ë
+
+û û('
+%6boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+19
+20*“
+10
+™C ™(P∫∑
+
+™ ™(Q
+%16void"$domain.User#setIzoztatutakoDirua(D)V*9
+
+__unknown_file (
+
+travelerdomain.Traveler*"
+
+__unknown_file (
+""2setIzoztatutakoDirua(D)*
+5*î
+22
+ú- ú(1|z
+
+ù ù(0
+%5double"domain.User#getMoney()D*9
+
+__unknown_file (
+
+travelerdomain.Traveler2
+getMoney()*
+21*Ø
+11
+™ ™(ñì
+
+™! ™(@
+%15double"#domain.User#getIzoztatutakoDirua()D*9
+
+__unknown_file (
+
+travelerdomain.Traveler2getIzoztatutakoDirua()*
+10*ª
+12
+© ©(¢ü
+
+© ©(6
+%14void"domain.User#setMoney(D)V*9
+
+__unknown_file (
+
+travelerdomain.Traveler*"
+
+__unknown_file (
+""2setMoney(D)*
+11*å
+23
+ú ú(tr
+
+ú ú(*
+%4double"domain.Ride#getPrice()D*1
+
+__unknown_file (
+
+ridedomain.Ride2
+getPrice()*
+22:*
+
+è è()
+usernamejava.lang.String:!
+
+è* è(4
+ridedomain.Ride: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+""B
+dataAccess.DataAccessHX

@@ -1,0 +1,22 @@
+
+€testOperations.TestBusinessLogic#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;]
+S/Users/mac/git/Rides24Completee/src/test/java/testOperations/TestBusinessLogic.java< <("1*w
+1= =(H
+F
+> >(>
+rdomain.Ride"__id*"
+
+__unknown_file (
+"""
+@ @(
+
+rdomain.Ride:%
+< <(&
+emailjava.lang.String:$
+<& <(2
+fromjava.lang.String:"
+<3 <(=
+tojava.lang.String:"
+<> <(G
+datejava.util.DateB$"
+ testOperations.TestBusinessLogicH

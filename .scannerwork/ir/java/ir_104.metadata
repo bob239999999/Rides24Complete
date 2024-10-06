@@ -1,0 +1,12 @@
+gui.LoginGUI#instance-init#
+5e165153b95d93974231bad4cb09b218
+javax.swing.JPasswordField#<init>()V
+javax.swing.JLabel#<init>(Ljava/lang/String;)V
+javax.swing.JTextField#instance-init#
+javax.swing.JTextField#<init>()V
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+javax.swing.JLabel#instance-init#
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.JPasswordField#instance-init#
+javax.swing.JButton#instance-init#

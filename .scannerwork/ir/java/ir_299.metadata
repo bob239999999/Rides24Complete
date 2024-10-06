@@ -1,0 +1,4 @@
+BookRideBDBlackTest#testDiscountGreaterThanPrice()V
+aa6153cfed4e98005f7099ebcb2f5b40
+==
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z

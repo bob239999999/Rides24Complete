@@ -1,0 +1,4 @@
+gauzatuEragiketaMockWhiteTest#init()V
+7b1555856a79f1797f47583a033daf16
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>(Ljavax/persistence/EntityManager;)V

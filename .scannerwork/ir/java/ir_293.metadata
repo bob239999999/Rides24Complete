@@ -1,0 +1,12 @@
+BookRideBDBlackTest#setUp()V
+f8174d7dcdf93446e3f8f59c123b1d97
+domain.Ride#instance-init#
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.util.Date#<init>()V
+domain.Traveler#instance-init#
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLdomain/Driver;)V
+domain.Driver#instance-init#
+java.util.Date#instance-init#
+==
+setMoney domain.User#setMoney(D)V

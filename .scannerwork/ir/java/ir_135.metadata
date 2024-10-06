@@ -1,0 +1,6 @@
+gauzatuEragiketaBDWhiteTest#testUserDoesNotExist()V
+2b37ca33036c3ce7705f80d78d880767
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

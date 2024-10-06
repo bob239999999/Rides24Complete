@@ -1,0 +1,6 @@
+BookRideBDWhiteTest#testInvalidUser()V
+28fd50084163181e974b144f23467497
+==
+close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

@@ -1,0 +1,6 @@
+BookRideBDWhiteTest#testDiscountLowerThanPrice()V
+590fef596d2974c5ffd842d47390da91
+==
+close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

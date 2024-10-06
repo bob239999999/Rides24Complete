@@ -1,0 +1,5 @@
+BookRideBDBlackTest#testInsuficientBalanceBooking()V
+8d5b8bb404be90c8ccd112e9c1117577
+==
+setMoney domain.User#setMoney(D)V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z

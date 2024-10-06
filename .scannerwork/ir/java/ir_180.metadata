@@ -1,0 +1,10 @@
+gauzatuEragiketaMockWhiteTest#testDepositToExistingUser()V
+2842140dfac6cd8fc4133b267cba60e5
+domain.User#instance-init#
+domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+==
+setMoney domain.User#setMoney(D)V
+close dataAccess.DataAccess#close()V
+getMoney domain.User#getMoney()D
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

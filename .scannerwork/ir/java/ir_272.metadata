@@ -1,0 +1,6 @@
+BookRideBDWhiteTest#testInsuficientSeats()V
+71ac8808fb40b32331975775ed597d2a
+==
+close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

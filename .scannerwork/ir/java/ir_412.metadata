@@ -1,0 +1,10 @@
+BookRideMockBlackTest#testInsufficientSeats()V
+f04bc148d90a242cccf84c0d3c48bbbf
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Traveler#instance-init#
+==
+setMoney domain.User#setMoney(D)V
+close dataAccess.DataAccess#close()V
+getnPlaces domain.Ride#getnPlaces()I
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

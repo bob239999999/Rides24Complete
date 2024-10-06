@@ -1,0 +1,10 @@
+BookRideMockBlackTest#testSuccessfulBoking()V
+f2d3aa92f1535463d56a634849258b65
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Traveler#instance-init#
+==
+setMoney domain.User#setMoney(D)V
+close dataAccess.DataAccess#close()V
+getMoney domain.User#getMoney()D
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

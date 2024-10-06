@@ -1,0 +1,4 @@
+domain.Traveler#removeAlert(Ldomain/Alert;)V
+cd05d2b177c941abdefb6d936eec2cd3
+==
+remove java.util.List#remove(Ljava/lang/Object;)Z

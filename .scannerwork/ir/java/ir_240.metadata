@@ -1,0 +1,6 @@
+businessLogic.BLFacadeImplementation#cancelRide(Ldomain/Ride;)V
+b334c3e318092f71f9e713b49991e2f3
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+cancelRide dataAccess.DataAccess#cancelRide(Ldomain/Ride;)V

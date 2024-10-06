@@ -1,0 +1,4 @@
+BookRideBDBlackTest#testInsufficientSeatsBooking()V
+0c13e425fe8b3b9a467e0146ffcb3180
+==
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z

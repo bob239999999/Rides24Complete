@@ -1,0 +1,12 @@
+BookRideMockBlackTest#testInvalidUser()V
+c6a445d6a0c023f9f4878bc82a3fc91d
+domain.Ride#instance-init#
+java.util.Date#<init>()V
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLdomain/Driver;)V
+domain.Driver#instance-init#
+java.util.Date#instance-init#
+==
+close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

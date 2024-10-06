@@ -1,0 +1,5 @@
+domain.Traveler#addAlert(Ldomain/Alert;)V
+658dcdcb77779f12774fcefd779e0520
+==
+add java.util.List#add(Ljava/lang/Object;)Z
+setTraveler domain.Alert#setTraveler(Ldomain/Traveler;)V

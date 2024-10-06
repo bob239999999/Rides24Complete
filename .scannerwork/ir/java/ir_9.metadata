@@ -1,0 +1,5 @@
+dataAccess.DataAccess#getUser(Ljava/lang/String;)Ldomain/User;
+9f1de23c4ac6833c4b0d380def74d6f3
+==
+isEmpty java.util.List#isEmpty()Z
+get java.util.List#get(I)Ljava/lang/Object;

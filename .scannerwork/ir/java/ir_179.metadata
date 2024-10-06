@@ -1,0 +1,7 @@
+gauzatuEragiketaMockWhiteTest#testUserDoesNotExist()V
+366a0a3c7fdf1df63bce86c2d1c49a63
+null
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z
