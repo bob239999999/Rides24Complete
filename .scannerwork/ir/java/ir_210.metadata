@@ -1,6 +1,12 @@
-businessLogic.BLFacadeImplementation#getTraveler(Ljava/lang/String;)Ldomain/Traveler;
-2faf188c9c0f505b69fea346dae298d0
+BookRideMockWhiteTest#testInvalidUser()V
+fb2236071a59a72cb9d645f5b605c350
+domain.Ride#instance-init#
+java.util.Date#<init>()V
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLdomain/Driver;)V
+domain.Driver#instance-init#
+java.util.Date#instance-init#
 ==
-getTraveler dataAccess.DataAccess#getTraveler(Ljava/lang/String;)Ldomain/Traveler;
 close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
 open dataAccess.DataAccess#open()V

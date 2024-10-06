@@ -1,2 +1,6 @@
-gui.RegisterGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-8171954eb8f9a583eb1d6488e7f80772
+gauzatuEragiketaBDWhiteTest#testUserDoesNotExist()V
+2f849a667f4b73e36812f4a75938247a
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

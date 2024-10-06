@@ -1,4 +1,6 @@
-gui.AlertakKudeatuGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)V
-102990f8da7a2255b9d4c04e46dcf8af
+businessLogic.BLFacadeImplementation#deleteCar(Ldomain/Car;)V
+df4b93bac3857f2dec352c148c31309e
 ==
-setVisible java.awt.Window#setVisible(Z)V
+close dataAccess.DataAccess#close()V
+deleteCar dataAccess.DataAccess#deleteCar(Ldomain/Car;)V
+open dataAccess.DataAccess#open()V

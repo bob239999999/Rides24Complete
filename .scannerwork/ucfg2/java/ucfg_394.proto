@@ -1,15 +1,7 @@
 
-&domain.Alert#getDate()Ljava/util/Date;[
-Q/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/domain/Alert.java< <("1*“
-1=	 =(`
-^
-=	 =(
-%0java.util.Date"__id*6
-
-__unknown_file (*
-domain.Alert"
-date""
-= =(
-
-%0java.util.DateB
-domain.AlertH
+domain.Movement#getKopurua()D^
+T/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/domain/Movement.java. .("1*!
+1/ /("
+/ /(
+""B
+domain.MovementHX

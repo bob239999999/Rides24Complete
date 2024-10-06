@@ -1,16 +1,15 @@
 
-+domain.Alert#getTraveler()Ldomain/Traveler;[
-Q/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/domain/Alert.javaD D("1*™
-1E	 E(e
-c
-E	 E(
-%0domain.Traveler"__id*:
+>gui.KotxeaGehituGUI#getBusinessLogic()LbusinessLogic/BLFacade;b
+X/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/gui/KotxeaGehituGUI.java# #(("1*¸
+1$	 $(}
+{
+$	 $(
+%0businessLogic.BLFacade"__id*K
 
-__unknown_file (*
-domain.Alert"
-
-traveler"#
-E E(
-
-%0domain.TravelerB
-domain.AlertH
+__unknown_file (/*-
+gui.KotxeaGehituGUI"
+appFacadeInterface"*
+$ $(
+
+%0businessLogic.BLFacadeB"
+gui.KotxeaGehituGUIH

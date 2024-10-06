@@ -1,6 +1,10 @@
-businessLogic.BLFacadeImplementation#addDriver(Ljava/lang/String;Ljava/lang/String;)Z
-b49429ff9a5170041d71f1dbf3e7e13e
+BookRideMockWhiteTest#testInsufficientBalance()V
+9a4b77a2844c7608f369edd57825f640
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Traveler#instance-init#
 ==
+setMoney domain.User#setMoney(D)V
 close dataAccess.DataAccess#close()V
+getnPlaces domain.Ride#getnPlaces()I
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
 open dataAccess.DataAccess#open()V
-addDriver dataAccess.DataAccess#addDriver(Ljava/lang/String;Ljava/lang/String;)Z

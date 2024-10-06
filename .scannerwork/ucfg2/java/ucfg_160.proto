@@ -1,15 +1,15 @@
 
-'domain.User#getMota()Ljava/lang/String;Z
-P/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/domain/User.java: :("1*–
-1;	 ;(a
-_
-;	 ;(
-%0java.lang.String"__id*5
++domain.User#getPassword()Ljava/lang/String;Z
+P/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/domain/User.java2 2("1*˜
+13	 3(c
+a
+3	 3(
+%0java.lang.String"__id*7
 
-__unknown_file (*
-domain.User"
-mota"$
-; ;(
+__unknown_file (*
+domain.User"
+passwd"$
+3 3(
 
 %0java.lang.StringB
 domain.UserH

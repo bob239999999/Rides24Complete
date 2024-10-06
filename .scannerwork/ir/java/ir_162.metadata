@@ -1,4 +1,2 @@
-dataAccess.ObjectdbManagerServer#instance-init#
-4a3312eede9b49de0661b3911b71931c
-javax.swing.JPanel#<init>()V
-javax.swing.JPanel#instance-init#
+testOperations.TestBusinessLogic#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+4e3854664aab068d2b8e679f39518c8a

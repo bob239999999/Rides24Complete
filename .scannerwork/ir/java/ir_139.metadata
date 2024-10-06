@@ -1,2 +1,4 @@
-gui.DriverGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-a7ed5a284e88f48a1ea8dd950e0bb4c7
+gui.RegisterGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+f4705efcd197c3bc218594154bcb81f3
+==
+setVisible java.awt.Window#setVisible(Z)V

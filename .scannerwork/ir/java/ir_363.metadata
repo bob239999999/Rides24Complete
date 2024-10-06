@@ -1,2 +1,2 @@
-domain.Booking#setComplaint(Ldomain/Complaint;)V
-192766da2d5ed5adb1cf863b46d65f7f
+gui.ArazoaGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+4cede4cd92bb30c18c6cb35b16f78c09

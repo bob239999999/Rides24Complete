@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getDiscount(Ljava/lang/String;)Ldomain/Discount;
-146479d698627c5304903357bd22e858
+businessLogic.BLFacadeImplementation#getAllMovements(Ldomain/User;)Ljava/util/List;
+b7001f7e4fc06e8b1b4638623437933d
 ==
+getAllMovements dataAccess.DataAccess#getAllMovements(Ldomain/User;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
-getDiscount dataAccess.DataAccess#getDiscount(Ljava/lang/String;)Ldomain/Discount;
 open dataAccess.DataAccess#open()V

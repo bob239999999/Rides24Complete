@@ -1,2 +1,4 @@
-domain.Discount#setActive(Z)V
-2b864f76f1b9018dfec2da95131a3626
+domain.Driver#instance-init#
+12c0899f16c8313afec4d8d45ccc74fa
+java.util.Vector#<init>()V
+java.util.Vector#instance-init#

@@ -1,4 +1,6 @@
-domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V
-a8b5b645c294c608565fab263a09ba2f
+businessLogic.BLFacadeImplementation#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
+f0de64c156a8061e763110c0f6e47879
 ==
-<init> java.lang.Object#<init>()V
+getAlertsByUsername dataAccess.DataAccess#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

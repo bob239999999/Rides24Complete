@@ -1,2 +1,6 @@
-gui.AlertakKudeatuGUI#instance-init#
-abdbe927516fb9f796debbfb832eb7ec
+businessLogic.BLFacadeImplementation#deleteDiscount(Ldomain/Discount;)V
+6c1c75af793aa50cf745d897fb69ebc1
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+deleteDiscount dataAccess.DataAccess#deleteDiscount(Ldomain/Discount;)V

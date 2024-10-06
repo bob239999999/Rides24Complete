@@ -1,2 +1,4 @@
-domain.Alert#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Traveler;)V
-9fedef1d8c91d2f86259faf491336f13
+BookRideBDBlackTest#testDiscountGreaterThanPrice()V
+902f88e76e9471ec87b45d57e82d8782
+==
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z

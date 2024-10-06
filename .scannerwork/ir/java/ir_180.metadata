@@ -1,4 +1,4 @@
-gui.BezeroGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-be71f33d5b7e45da36bff7cb7bb23490
-==
-setVisible java.awt.Window#setVisible(Z)V
+gauzatuEragiketaMockWhiteTest#init()V
+fc8931fc5788a65c7e4e2a15314d5c55
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>(Ljavax/persistence/EntityManager;)V

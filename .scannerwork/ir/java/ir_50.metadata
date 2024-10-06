@@ -1,3 +1,4 @@
-testOperations.TestDataAccess#instance-init#
-1b0a5beea2f38420f7e660d1ca39db68
-configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
+testOperations.TestDataAccess#<init>()V
+4a38fa5217715291bae67cf98f640b97
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V

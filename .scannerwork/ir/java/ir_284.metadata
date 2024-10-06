@@ -1,2 +1,4 @@
-gui.KotxeakKudeatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-71458a44dce5527ebcf90086f4ca7214
+gauzatuEragiketaMockBlackTest#init()V
+2242c03b97053f91e6a95444d8b7ef2e
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>(Ljavax/persistence/EntityManager;)V

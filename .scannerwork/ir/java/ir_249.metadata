@@ -1,2 +1,6 @@
-gui.AdminGUI#instance-init#
-793c34abbeaa70d2837199d0263e750e
+businessLogic.BLFacadeImplementation#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;
+b57c8b399d7d0efd10f9d67c980b14b4
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+getKotxeByMatrikula dataAccess.DataAccess#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;

@@ -1,15 +1,125 @@
 
-%domain.Booking#getRide()Ldomain/Ride;]
-S/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/domain/Booking.java- -("1*è
-1.	 .(_
-]
-.	 .(
-%0domain.Ride"__id*8
+(domain.Ride#toString()Ljava/lang/String;\
+P/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/domain/Ride.javaÆ Æ("1*Ü
+
+1
+Ø	 Ø(c
+a
+
+Ø	 Ø(
+%0java.lang.String"__id*5
 
-__unknown_file (*
-domain.Booking"
-ride"
-. .(
-
-%0domain.RideB
-domain.BookingH
+__unknown_file (*
+domain.Ride"
+fromn
+l
+
+Ø	 Ø(
+%1java.lang.String"__concat*&
+
+Ø	 Ø(
+
+%0java.lang.String*
+
+Ø Ø(
+; a
+_
+
+Ø Ø(
+%2java.lang.String"__id*3
+
+__unknown_file (*
+domain.Ride"
+toÄ
+~
+
+Ø	 Ø(
+%3java.lang.String"__concat*&
+
+Ø	 Ø(
+
+%1java.lang.String*&
+
+Ø Ø(
+
+%2java.lang.Stringn
+l
+
+Ø	 Ø( 
+%4java.lang.String"__concat*&
+
+Ø	 Ø(
+
+%3java.lang.String*
+
+Ø Ø( 
+; a
+_
+
+Ø# Ø('
+%5java.util.Date"__id*5
+
+__unknown_file (*
+domain.Ride"
+date~
+|
+
+Ø	 Ø('
+%6java.lang.String"__concat*&
+
+Ø	 Ø( 
+
+%4java.lang.String*$
+
+Ø# Ø('
+
+%5java.util.Daten
+l
+
+Ø	 Ø(.
+%7java.lang.String"__concat*&
+
+Ø	 Ø('
+
+%6java.lang.String*
+
+Ø* Ø(.
+; n
+l
+
+Ø	 Ø(8
+%8java.lang.String"__concat*&
+
+Ø	 Ø(.
+
+%7java.lang.String*
+
+Ø1 Ø(8
+""m
+k
+
+Ø	 Ø(<
+%9java.lang.String"__concat*&
+
+Ø	 Ø(8
+
+%8java.lang.String*
+
+Ø9 Ø(<
+ o
+m
+
+Ø	 Ø(B
+%10java.lang.String"__concat*&
+
+Ø	 Ø(<
+
+%9java.lang.String*
+
+Ø= Ø(B
+"""'
+
+Ø Ø(C
+
+%10java.lang.StringB
+domain.RideH

@@ -1,2 +1,2 @@
-domain.Alert#setTraveler(Ldomain/Traveler;)V
-345a33c03cfac2055769bb5507e60a54
+domain.Movement#setUsername(Ldomain/User;)V
+ec97e06adb46652fba49bb59f5f9ddf1

@@ -1,2 +1,6 @@
-CreateRideBDBlackTest#<init>()V
-d5d938c35c772c1d1b6831698dfe7f8f
+businessLogic.BLFacadeImplementation#isAdded(Ljava/lang/String;Ljava/lang/String;)Z
+257a3a4457391b9f242e6459e4965fc7
+==
+close dataAccess.DataAccess#close()V
+isAdded dataAccess.DataAccess#isAdded(Ljava/lang/String;Ljava/lang/String;)Z
+open dataAccess.DataAccess#open()V

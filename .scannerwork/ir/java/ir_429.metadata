@@ -1,0 +1,4 @@
+BookRideMockBlackTest#init()V
+74f40fd7ccead95d050cac595160b9ef
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>(Ljavax/persistence/EntityManager;)V

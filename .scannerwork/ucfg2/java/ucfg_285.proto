@@ -1,11 +1,11 @@
 
-XbusinessLogic.BLFacadeImplementation#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;u
-i/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/businessLogic/BLFacadeImplementation.java¬ ¬("startingBlock*å
+HbusinessLogic.BLFacadeImplementation#getActualMoney(Ljava/lang/String;)Du
+i/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/businessLogic/BLFacadeImplementation.javaå å("startingBlock*å
 startingBlock
-¬ ¬(,ç
+å å(*ç
 ä
 
-¡ ¡(
+ã ã(
 
 %6"
 __annotate*2
@@ -15,28 +15,28 @@ __annotate*2
 
 __unknown_file (
 
-matrjava.lang.StringZ
+erabjava.lang.StringZ
 X
 
-¬' ¬(+
-matrjava.lang.String"__annotation*"
+å% å()
+erabjava.lang.String"__annotation*"
 
 __unknown_file (
 
 %6*
-1*∂
+1*≥
 1
-√ √(á
+ç ç(á
 Ñ
 
-√ √(
+ç ç(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-√ √(
+ç ç(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -45,16 +45,15 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-ƒ ƒ(
+é é(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManageràÖ
+	dbManagerÔÏ
 
-ƒ ƒ(1
-%3
-domain.Car"IdataAccess.DataAccess#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;*9
+é é(/
+%3double"9dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)D*9
 
 __unknown_file (
 
@@ -62,39 +61,27 @@ domain.Car"IdataAccess.DataAccess#getKotxeByMatrikula(Ljava/lang/String;)Ldomain
 
 __unknown_file (
 
-matrjava.lang.String2'getKotxeByMatrikula(Ljava/lang/String;)Y
-W
-
-ƒ ƒ(2
-kotxe
-domain.Car"__id*.
-
-__unknown_file (
-
-%3
-domain.Cará
+erabjava.lang.String2"getActualMoney(Ljava/lang/String;)á
 Ñ
 
-≈ ≈(
+è è(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-≈ ≈(
+è è(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"#
+%4dataAccess.DataAccess2close()"
 
-∆ ∆(
-
-kotxe
-domain.Car:&
+ê ê(
+"":&
 
-¬  ¬(+
-matrjava.lang.StringB(&
-$businessLogic.BLFacadeImplementationH
+å å()
+erabjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationHX

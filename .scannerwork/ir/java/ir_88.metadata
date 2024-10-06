@@ -1,5 +1,6 @@
-domain.Driver#addCar(Ldomain/Car;)V
-192050a71d3d1b2b77a57faa76354153
+domain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Ride;
+71e6fa77d3b9944f3b52dad2eb598d9f
+domain.Ride#instance-init#
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLdomain/Driver;)V
 ==
 add java.util.List#add(Ljava/lang/Object;)Z
-setDriver domain.Car#setDriver(Ldomain/Driver;)V

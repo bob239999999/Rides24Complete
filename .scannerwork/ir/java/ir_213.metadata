@@ -1,6 +1,15 @@
-businessLogic.BLFacadeImplementation#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z
-e7dff60493f9f54c81f48bcef59a0b57
+BookRideMockWhiteTest#testDiscountGreaterThanPrice()V
+20bb10d4c179ccba3f084cb550925889
+domain.Ride#instance-init#
+java.util.Date#<init>()V
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLdomain/Driver;)V
+domain.Traveler#instance-init#
+domain.Driver#instance-init#
+java.util.Date#instance-init#
 ==
-addTraveler dataAccess.DataAccess#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z
+setMoney domain.User#setMoney(D)V
 close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
 open dataAccess.DataAccess#open()V

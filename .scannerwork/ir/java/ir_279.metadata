@@ -1,2 +1,6 @@
-gui.KotxeaGehituGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-e657cba5a6ceb77b8569bee574e4e4f6
+BookRideBDWhiteTest#testDiscountGreaterThanPrice()V
+7e6f3957cd6c17f8cf74da6d6c97a258
+==
+close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

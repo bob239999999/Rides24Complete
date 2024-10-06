@@ -1,2 +1,12 @@
-domain.Movement#getKopurua()D
-74ae103470576e94738ed5c045c21352
+BookRideBDWhiteTest#setUp()V
+b54dfd47eb2d5f2d7b86241b080ae9a8
+domain.Ride#instance-init#
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.util.Date#<init>()V
+domain.Traveler#instance-init#
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLdomain/Driver;)V
+domain.Driver#instance-init#
+java.util.Date#instance-init#
+==
+setMoney domain.User#setMoney(D)V

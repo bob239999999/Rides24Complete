@@ -1,2 +1,4 @@
-domain.Movement#setUsername(Ldomain/User;)V
-832aba36004d9ee9c262afc0a2ee7606
+gui.AdminGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+ad9dc1329b01914e7424f505b593da1c
+==
+setVisible java.awt.Window#setVisible(Z)V

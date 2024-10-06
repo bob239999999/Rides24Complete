@@ -1,2 +1,12 @@
-gui.ArazoaGUI#instance-init#
-bc75ceefb2da1ce622b4baf4c62f6ddf
+BookRideBDBlackTest#setUp()V
+52c7174dc7855b68841e8df3343eba5f
+domain.Ride#instance-init#
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.util.Date#<init>()V
+domain.Traveler#instance-init#
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLdomain/Driver;)V
+domain.Driver#instance-init#
+java.util.Date#instance-init#
+==
+setMoney domain.User#setMoney(D)V

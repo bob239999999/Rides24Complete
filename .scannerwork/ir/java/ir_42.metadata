@@ -1,2 +1,2 @@
-domain.Traveler#getBookedRides()Ljava/util/List;
-5b6673a48c2c7de1da75c09cc87ecf54
+domain.Traveler#setBookedRides(Ljava/util/List;)V
+3f58588ef6b90803ae51b623322cb666

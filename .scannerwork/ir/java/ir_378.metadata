@@ -1,2 +1,2 @@
-domain.Complaint#setNori(Ljava/lang/String;)V
-3f9c0ce6ece17fdf6c30efe2b773c03f
+domain.Alert#isFound()Z
+5b2e15ca022c3b99ccb9c474f580059a

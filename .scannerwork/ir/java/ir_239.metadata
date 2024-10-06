@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#deleteUser(Ldomain/User;)V
-91fd38e71126fa5f160a21adaf314c56
+businessLogic.BLFacadeImplementation#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
+3b1285878252de0c9595b0e489114fb4
 ==
 close dataAccess.DataAccess#close()V
+getPastBookedRides dataAccess.DataAccess#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
 open dataAccess.DataAccess#open()V
-deleteUser dataAccess.DataAccess#deleteUser(Ldomain/User;)V

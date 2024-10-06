@@ -1,2 +1,4 @@
-domain.Admin2#setUsername(Ljava/lang/String;)V
-82a251841a37092d08d3c7f67f636984
+domain.Booking#prezioaKalkulatu()D
+54a716981a317d70b2932ffb56d05df0
+==
+getPrice domain.Ride#getPrice()D

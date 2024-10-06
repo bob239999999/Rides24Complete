@@ -1,6 +1,2 @@
-businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;
-9e59a7fee51b34160a4a6fe1ba44335e
-==
-close dataAccess.DataAccess#close()V
-getArrivalCities dataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;
-open dataAccess.DataAccess#open()V
+gui.TravelerGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+d6d2c5b5a4d90765bab94ab336499ca6

@@ -1,2 +1,6 @@
-gui.KotxeaGehituGUI#instance-init#
-541dea56d1658d17234a4afeea6ddfd5
+BookRideBDWhiteTest#testInsuficientSeats()V
+00f645b39f7f2e6b417a399e46ebf893
+==
+close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

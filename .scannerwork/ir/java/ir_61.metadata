@@ -1,4 +1,2 @@
-gui.EzabatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-592646cd081cd54a34084fe79ddbf7ab
-==
-setVisible java.awt.Window#setVisible(Z)V
+CreateRideMockWhiteTest#instance-init#
+157b06281da10cf37e4bf9bfb1cda0bc

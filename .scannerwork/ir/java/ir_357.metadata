@@ -1,2 +1,2 @@
-domain.Booking#getStatus()Ljava/lang/String;
-e138d98b8d0ddf961fce19b7be777dc5
+domain.Ride#toString()Ljava/lang/String;
+393cc5addc3388bc37ef0112aaae53f0

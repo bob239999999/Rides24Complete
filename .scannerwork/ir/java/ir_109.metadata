@@ -1,2 +1,2 @@
-gui.DeskontuaGUI#instance-init#
-3293d2791cd267d04630a41828cf2ac5
+gui.DeskontuaGUI#setBusinessLogic(LbusinessLogic/BLFacade;)V
+f1b671df47d9c44f35b42772d8a74ff0

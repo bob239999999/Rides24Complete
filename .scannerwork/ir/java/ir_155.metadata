@@ -1,6 +1,2 @@
-testOperations.TestBusinessLogic#<init>()V
-7f98c6ae9bee4f7579eedca383c21736
-null
-configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
-==
-println java.io.PrintStream#println(Ljava/lang/String;)V
+gui.ApplicationLauncher#<init>()V
+cf2d249d5fe9234252af512e61f6ad87

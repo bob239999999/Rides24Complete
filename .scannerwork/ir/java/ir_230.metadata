@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)Z
-d899bb4a7e4dc89a31a09f4ff0d02c32
+businessLogic.BLFacadeImplementation#getTraveler(Ljava/lang/String;)Ldomain/Traveler;
+55b6770b3312e11317ee52ab8e75b101
 ==
-erreklamazioaBidali dataAccess.DataAccess#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)Z
+getTraveler dataAccess.DataAccess#getTraveler(Ljava/lang/String;)Ldomain/Traveler;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

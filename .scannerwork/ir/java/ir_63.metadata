@@ -1,2 +1,4 @@
-CreateRideMockWhiteTest#<init>()V
-b5e468e4accf1a79adcf363a552513db
+CreateRideMockWhiteTest#init()V
+54703290aaa7f497cf40153529b26f14
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>(LEntityManager;)V

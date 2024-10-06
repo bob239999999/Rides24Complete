@@ -1,2 +1,6 @@
-gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-cd3d82d2f17e0c1a3445e3b5be352b57
+businessLogic.BLFacadeImplementation#updateComplaint(Ldomain/Complaint;)V
+fabf8c4163a685cfae1f51acf3ba0091
+==
+close dataAccess.DataAccess#close()V
+updateComplaint dataAccess.DataAccess#updateComplaint(Ldomain/Complaint;)V
+open dataAccess.DataAccess#open()V

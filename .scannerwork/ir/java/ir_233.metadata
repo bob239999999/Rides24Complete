@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getAllDiscounts()Ljava/util/List;
-febfb3095fab803a041996b9d54fc420
+businessLogic.BLFacadeImplementation#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z
+ebf48da16140874673dea8e715186ab8
 ==
-getAllDiscounts dataAccess.DataAccess#getAllDiscounts()Ljava/util/List;
+addTraveler dataAccess.DataAccess#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

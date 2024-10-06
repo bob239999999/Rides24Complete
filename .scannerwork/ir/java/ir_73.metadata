@@ -1,4 +1,2 @@
-gui.BaloraGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-158779a364a2e598a2627068cf5c6597
-==
-setVisible java.awt.Window#setVisible(Z)V
+domain.Discount#instance-init#
+c7ddd3aa25ddd6ca09b5c6dbc4dde33f

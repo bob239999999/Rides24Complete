@@ -1,2 +1,2 @@
-gui.MoneyGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-58a8aa8d5313f43953a21d83a9ea4448
+gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+4fdb0228b986891daf2c9c34cb0f6e9d

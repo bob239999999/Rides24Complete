@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateDiscount(Ldomain/Discount;)V
-820b83a41988c6c26dbc287db6798ed4
+businessLogic.BLFacadeImplementation#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+9f1adb2cf5a44e5d18e8959fa8941648
 ==
 close dataAccess.DataAccess#close()V
-updateDiscount dataAccess.DataAccess#updateDiscount(Ldomain/Discount;)V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
 open dataAccess.DataAccess#open()V

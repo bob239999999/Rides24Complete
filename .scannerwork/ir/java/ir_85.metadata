@@ -1,2 +1,2 @@
-domain.Driver#getCreatedRides()Ljava/util/List;
-640c8a028a39c5595c67eaf1a5768b93
+domain.Driver#setCreatedRides(Ljava/util/List;)V
+859b0027c081c2c81ab1007591e10c7b

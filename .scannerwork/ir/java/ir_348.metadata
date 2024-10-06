@@ -1,2 +1,2 @@
-domain.Booking#<init>(Ldomain/Ride;Ldomain/Traveler;I)V
-a9803c1fca7a81da6e8bb44e557358ab
+domain.Ride#setDate(Ljava/util/Date;)V
+86b485a18a559f45108d778aca4ae66e

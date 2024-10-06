@@ -1,5 +1,2 @@
-dataAccess.DataAccess#getBookedRides(Ljava/lang/String;)Ljava/util/List;
-bc0ff2f0a6596cf247ebe70ef93575af
-==
-getTraveler dataAccess.DataAccess#getTraveler(Ljava/lang/String;)Ldomain/Traveler;
-getBookedRides domain.Traveler#getBookedRides()Ljava/util/List;
+dataAccess.DataAccess#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
+dce611161ba2c96ea0734e56eaa9abfb

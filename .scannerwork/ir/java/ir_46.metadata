@@ -1,4 +1,5 @@
-domain.Traveler#toString()Ljava/lang/String;
-23e5a3ac342a2e67b398f6baec6851cc
+domain.Traveler#addBookedRide(Ldomain/Booking;)V
+eba307396ad0986b0e9128ff5004aca5
 ==
-toString domain.User#toString()Ljava/lang/String;
+setTraveler domain.Booking#setTraveler(Ldomain/Traveler;)V
+add java.util.List#add(Ljava/lang/Object;)Z

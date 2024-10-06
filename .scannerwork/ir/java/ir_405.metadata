@@ -1,2 +1,2 @@
-configuration.ConfigXML#getBusinessLogicPort()Ljava/lang/String;
-12f1d8bb61d662d6cd55269543c9fd31
+domain.Booking#getTraveler()Ldomain/Traveler;
+7221aff5de5c819990da442f538877ad

@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateComplaint(Ldomain/Complaint;)V
-8548f69f16806f258489a6be2aa42715
+businessLogic.BLFacadeImplementation#getMotaByUsername(Ljava/lang/String;)Ljava/lang/String;
+8d80b1aadef83eb35aef97fd789a57ab
 ==
+getMotabyUsername dataAccess.DataAccess#getMotabyUsername(Ljava/lang/String;)Ljava/lang/String;
 close dataAccess.DataAccess#close()V
-updateComplaint dataAccess.DataAccess#updateComplaint(Ldomain/Complaint;)V
 open dataAccess.DataAccess#open()V

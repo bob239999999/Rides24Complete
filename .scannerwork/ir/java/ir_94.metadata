@@ -1,4 +1,2 @@
-domain.Driver#removeCar(Ldomain/Car;)V
-b996a3076f57c416dae48b4d316e0abe
-==
-remove java.util.List#remove(Ljava/lang/Object;)Z
+gui.ErreserbaOnartuGUI#instance-init#
+6bd6c93dfb1876d02c855ce0ac3d1ed2

@@ -1,6 +1,2 @@
-businessLogic.BLFacadeImplementation#getDepartCities()Ljava/util/List;
-9d85d60152e4376948604b773fd81a6f
-==
-getDepartCities dataAccess.DataAccess#getDepartCities()Ljava/util/List;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+gui.TravelerGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+bf71e4bcda779de1dc379064b39cbb50

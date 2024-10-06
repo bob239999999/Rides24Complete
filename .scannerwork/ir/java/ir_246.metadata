@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getComplaintsByBook(Ldomain/Booking;)Ldomain/Complaint;
-27b8009ab37051bc361a81dc27a2b2ee
+businessLogic.BLFacadeImplementation#cancelRide(Ldomain/Ride;)V
+a850d3296404fee39d98f294a641c134
 ==
-getComplaintsByBook dataAccess.DataAccess#getComplaintsByBook(Ldomain/Booking;)Ldomain/Complaint;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
+cancelRide dataAccess.DataAccess#cancelRide(Ldomain/Ride;)V

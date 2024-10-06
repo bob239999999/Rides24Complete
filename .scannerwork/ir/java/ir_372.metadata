@@ -1,4 +1,2 @@
-domain.Complaint#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)V
-8962e5bdf8fafa354f9146e47257a21c
-==
-<init> java.lang.Object#<init>()V
+domain.Alert#getTo()Ljava/lang/String;
+f2a672b3c9e68c0f087bd858920d6edf

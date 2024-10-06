@@ -1,2 +1,2 @@
-gui.MovementsGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-a84d798350e735fd485d34c726b36674
+gui.MovementsGUI#instance-init#
+334cde1b42385eabebaacd2b26ec6565

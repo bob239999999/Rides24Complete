@@ -1,2 +1,2 @@
-gui.ErreklamazioakGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-2fc6b4e995ea7effb777e209ff837922
+domain.Ride#getFrom()Ljava/lang/String;
+0e34ac40c655301cd2646b0ce963d2ae

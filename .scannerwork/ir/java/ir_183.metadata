@@ -1,4 +1,10 @@
-exceptions.RideAlreadyExistException#<init>(Ljava/lang/String;)V
-f5e350172a248e663b647f2552041889
+gauzatuEragiketaMockWhiteTest#testDepositToExistingUser()V
+0b7b2f1d82a2ad4abc7cba69d36f062b
+domain.User#instance-init#
+domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 ==
-<init> java.lang.Exception#<init>(Ljava/lang/String;)V
+setMoney domain.User#setMoney(D)V
+close dataAccess.DataAccess#close()V
+getMoney domain.User#getMoney()D
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

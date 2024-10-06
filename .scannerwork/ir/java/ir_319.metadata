@@ -1,2 +1,4 @@
-domain.Alert#setFrom(Ljava/lang/String;)V
-dbeb27372d4d900e8755b49874dd04c9
+BookRideBDBlackTest#testBookingAllAvailableSeats()V
+c29e33cb0ef49882f26aaa644f8ef900
+==
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z

@@ -1,2 +1,2 @@
-domain.Booking#getSeats()I
-f1204023e20d210037d282592733b898
+domain.Ride#getBookings()Ljava/util/List;
+58ed8c3d39c5be815da39deac3e02d55

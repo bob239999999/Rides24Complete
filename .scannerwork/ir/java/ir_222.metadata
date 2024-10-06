@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateUser(Ldomain/User;)V
-fab04ceb4191be42329882267bf37039
+businessLogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
+64fee6db153f42f9a5f9ac608833461b
 ==
-updateUser dataAccess.DataAccess#updateUser(Ldomain/User;)V
+getRides dataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

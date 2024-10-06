@@ -1,2 +1,2 @@
-domain.Complaint#setNor(Ljava/lang/String;)V
-d0d78a7b27b7eb46e536767ba2a02e51
+domain.Alert#getTraveler()Ldomain/Traveler;
+de9510999ef060ff486fc94962594d1e

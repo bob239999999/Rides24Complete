@@ -1,2 +1,2 @@
-domain.User#setMota(Ljava/lang/String;)V
-3bde256305572ee63ab1b2ea613b8f95
+domain.User#getMoney()D
+f2bdf70b64ddaa8b4fb81a5eab5d009e

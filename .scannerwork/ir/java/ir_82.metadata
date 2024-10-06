@@ -1,4 +1,4 @@
-domain.Driver#instance-init#
-12c0899f16c8313afec4d8d45ccc74fa
-java.util.Vector#<init>()V
-java.util.Vector#instance-init#
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+0c11b00ea424d5255666fd45c72c24b2
+==
+<init> domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

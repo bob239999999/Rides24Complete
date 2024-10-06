@@ -1,2 +1,2 @@
-domain.Booking#setStatus(Ljava/lang/String;)V
-ba904773a9fe944a9f7cacc8b2734f30
+domain.Ride#setnPlaces(I)V
+79646918641dd25919f1e2188cf4d370

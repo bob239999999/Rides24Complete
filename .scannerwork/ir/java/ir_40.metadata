@@ -1,4 +1,4 @@
-domain.Traveler#instance-init#
-a9175cead63bb32cf43e008b6a1ea3f1
-java.util.Vector#<init>()V
-java.util.Vector#instance-init#
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+b4fce5c6d68c6561242a2b347e4bd57f
+==
+<init> domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

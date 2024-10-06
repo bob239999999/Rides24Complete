@@ -1,34 +1,13 @@
 
-íbusinessLogic.BLFacadeImplementation#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)Zu
-i/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/businessLogic/BLFacadeImplementation.java   (#"startingBlock*∏	
+XbusinessLogic.BLFacadeImplementation#isRegistered(Ljava/lang/String;Ljava/lang/String;)Zu
+i/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/businessLogic/BLFacadeImplementation.javaî î("startingBlock*¸
 startingBlock
- #  (rå
-â
-
-… …(
-
-%6"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*5
-
-__unknown_file (
-
-norjava.lang.StringY
-W
-
- +  (.
-norjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%6ç
+î î(8ç
 ä
 
-… …(
+ì ì(
 
-%7"
+%6"
 __annotate*2
 
 __unknown_file (
@@ -36,62 +15,20 @@ __annotate*2
 
 __unknown_file (
 
-norijava.lang.StringZ
+erabjava.lang.StringZ
 X
 
- 7  (;
-norijava.lang.String"__annotation*"
+î$ î((
+erabjava.lang.String"__annotation*"
 
 __unknown_file (
 
-%7ã
-à
+%6è
+å
 
-… …(
+ì ì(
 
-%8"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*4
-
-__unknown_file (
-
-gaurjava.util.DateX
-V
-
- B  (F
-gaurjava.util.Date"__annotation*"
-
-__unknown_file (
-
-%8ã
-à
-
-… …(
-
-%9"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*4
-
-__unknown_file (
-
-bookdomain.BookingX
-V
-
- P  (T
-bookdomain.Booking"__annotation*"
-
-__unknown_file (
-
-%9ê
-ç
-
-… …(
-
-%10"
+%7"
 __annotate*2
 
 __unknown_file (
@@ -99,29 +36,28 @@ __annotate*2
 
 __unknown_file (
 
-textuajava.lang.String]
-[
+passwdjava.lang.String\
+Z
 
- ]  (c
-textuajava.lang.String"__annotation*#
+î1 î(7
+passwdjava.lang.String"__annotation*"
 
-__unknown_file (
-
-%10*
-1* 
-
+__unknown_file (
+
+%7*
+1*é
 1
-À À(á
+ï ï(á
 Ñ
 
-À À(
+ï ï(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-À À(
+ï ï(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -130,52 +66,37 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-Ã Ã(
+ñ ñ( 
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerÜÉ
+	dbManager «
 
-Ã Ã(S
-%3boolean"ÉdataAccess.DataAccess#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)Z*9
+ñ ñ(;
+%3boolean"IdataAccess.DataAccess#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*5
-
-__unknown_file (
-
-norjava.lang.String*6
+%2dataAccess.DataAccess*6
 
 __unknown_file (
 
-norijava.lang.String*4
-
-__unknown_file (
-
-gaurjava.util.Date*4
-
-__unknown_file (
-
-bookdomain.Booking*8
+erabjava.lang.String*8
 
 __unknown_file (
 
-textuajava.lang.String*"
-
-__unknown_file (
-""2lerreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)á
+passwdjava.lang.String22isRegistered(Ljava/lang/String;Ljava/lang/String;)á
 Ñ
 
-Õ Õ(
+ó ó(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-Õ Õ(
+ó ó(
 
 %5void"dataAccess.DataAccess#close()V*9
 
@@ -183,24 +104,12 @@ $businessLogic.BLFacadeImplementation"
 
 %4dataAccess.DataAccess2close()"
 
-Œ Œ(
-"":%
+ò ò(
+"":&
 
- $  (/
-norjava.lang.String:&
+î î()
+erabjava.lang.String:(
 
- 0  (<
-norijava.lang.String:$
-
- =  (G
-gaurjava.util.Date:$
-
- H  (U
-bookdomain.Booking:(
-
- V  (d
-textuajava.lang.String: 
-
-__unknown_file (
-""B(&
+î* î(7
+passwdjava.lang.StringB(&
 $businessLogic.BLFacadeImplementationHX

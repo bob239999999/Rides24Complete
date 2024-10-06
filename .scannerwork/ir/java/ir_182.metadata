@@ -1,4 +1,7 @@
-exceptions.RideAlreadyExistException#<init>()V
-447d1df5a7eba8bb5acbb6e6d8834058
+gauzatuEragiketaMockWhiteTest#testUserDoesNotExist()V
+60585dff4c2e649265ccbb81a29f8542
+null
 ==
-<init> java.lang.Exception#<init>()V
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

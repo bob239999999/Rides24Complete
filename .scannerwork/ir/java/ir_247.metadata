@@ -1,2 +1,6 @@
-CreateRideBDBlackTest#instance-init#
-7e84c628a1d6af6f3524d2a78ce64880
+businessLogic.BLFacadeImplementation#addCar(Ljava/lang/String;Ldomain/Car;)Z
+0825f4fed230aec6eef621a14fec49ae
+==
+addCar dataAccess.DataAccess#addCar(Ljava/lang/String;Ldomain/Car;)Z
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

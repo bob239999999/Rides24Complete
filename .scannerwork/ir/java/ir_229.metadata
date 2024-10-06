@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;
-c83b85b571995470d05afa71925227f9
+businessLogic.BLFacadeImplementation#getDriver(Ljava/lang/String;)Ldomain/Driver;
+defb607670a4cd2f1253341b8575c177
 ==
+getDriver dataAccess.DataAccess#getDriver(Ljava/lang/String;)Ldomain/Driver;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
-getKotxeByMatrikula dataAccess.DataAccess#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;

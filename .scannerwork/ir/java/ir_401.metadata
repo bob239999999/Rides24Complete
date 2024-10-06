@@ -1,2 +1,2 @@
-configuration.ConfigXML#isBusinessLogicLocal()Z
-a5cf97711cf13b899f87c29bc6925b3c
+domain.Booking#getBookNumber()I
+8bc30428653eaca5f27ec3971185d8a4

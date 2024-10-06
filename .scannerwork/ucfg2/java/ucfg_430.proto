@@ -1,7 +1,15 @@
 
-domain.Booking#getSeats()I]
-S/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/domain/Booking.java= =("1*!
-1>	 >("
-> >(
-""B
-domain.BookingHX
+8gui.ArazoaGUI#getBusinessLogic()LbusinessLogic/BLFacade;\
+R/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/gui/ArazoaGUI.java (("1*²
+1	 (w
+u
+	 (
+%0businessLogic.BLFacade"__id*E
+
+__unknown_file ()*'
+gui.ArazoaGUI"
+appFacadeInterface"*
+ (
+
+%0businessLogic.BLFacadeB"
+gui.ArazoaGUIH

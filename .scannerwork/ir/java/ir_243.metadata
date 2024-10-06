@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateAlertaAurkituak(Ljava/lang/String;)Z
-dde9415dd7617ffc5d9ad91780b213fb
+businessLogic.BLFacadeImplementation#updateBooking(Ldomain/Booking;)V
+0043a910062164a938100967f0af7d8a
 ==
 close dataAccess.DataAccess#close()V
+updateBooking dataAccess.DataAccess#updateBooking(Ldomain/Booking;)V
 open dataAccess.DataAccess#open()V
-updateAlertaAurkituak dataAccess.DataAccess#updateAlertaAurkituak(Ljava/lang/String;)Z

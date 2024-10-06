@@ -1,2 +1,2 @@
-domain.Ride#setBookings(Ljava/util/List;)V
-5f82fff386947f0e8f24f1689272e6d1
+domain.Car#setModeloa(Ljava/lang/String;)V
+30aa24240dc558339bd8a2f9aced2d48

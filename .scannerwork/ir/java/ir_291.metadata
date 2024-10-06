@@ -1,2 +1,7 @@
-domain.Ride#getFrom()Ljava/lang/String;
-0e34ac40c655301cd2646b0ce963d2ae
+gauzatuEragiketaMockBlackTest#testUserNotInDatabase()V
+e814854437d14dd469fca147d99ee042
+null
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

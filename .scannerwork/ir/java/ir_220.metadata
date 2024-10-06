@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateTraveler(Ldomain/Traveler;)V
-c48f59017b71b7c2b77842e5c99666ef
+businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;
+9e59a7fee51b34160a4a6fe1ba44335e
 ==
 close dataAccess.DataAccess#close()V
+getArrivalCities dataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;
 open dataAccess.DataAccess#open()V
-updateTraveler dataAccess.DataAccess#updateTraveler(Ldomain/Traveler;)V

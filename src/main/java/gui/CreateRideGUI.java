@@ -51,7 +51,7 @@ public class CreateRideGUI extends JFrame {
 			ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.CreateRide"));
 	private JButton jButtonClose = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Close"));
 	private JLabel jLabelMsg = new JLabel();
-	private JLabel jLabelError = new JLabel();
+	private JLabel jLabelError = new JLabel(); 
 
 	@SuppressWarnings("unused")
 	private List<Date> datesWithEventsCurrentMonth;
@@ -226,9 +226,7 @@ public class CreateRideGUI extends JFrame {
 						UtilDate.trim(jCalendar.getDate()), inputSeats, price, driver.getUsername());
 				jLabelMsg.setText(ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.RideCreated"));
 
-			} catch (RideMustBeLaterThanTodayException e1) {
-				jLabelMsg.setText(e1.getMessage());
-			} catch (RideAlreadyExistException e1) {
+			} catch (RideMustBeLaterThanTodayException | RideAlreadyExistException e1) {
 				jLabelMsg.setText(e1.getMessage());
 			}
 

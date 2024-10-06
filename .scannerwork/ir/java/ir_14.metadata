@@ -1,5 +1,2 @@
-dataAccess.DataAccess#getMotabyUsername(Ljava/lang/String;)Ljava/lang/String;
-ab142eac44810e11a97e6e38fcbb79a7
-==
-isEmpty java.util.List#isEmpty()Z
-get java.util.List#get(I)Ljava/lang/Object;
+dataAccess.DataAccess#getAllMovements(Ldomain/User;)Ljava/util/List;
+470235301d53b7c2aaaa937511c89534

@@ -1,2 +1,6 @@
-gui.AlertakKudeatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-13bd187ed4a1eace6f0fcd084c809755
+businessLogic.BLFacadeImplementation#updateDiscount(Ldomain/Discount;)V
+820b83a41988c6c26dbc287db6798ed4
+==
+close dataAccess.DataAccess#close()V
+updateDiscount dataAccess.DataAccess#updateDiscount(Ldomain/Discount;)V
+open dataAccess.DataAccess#open()V

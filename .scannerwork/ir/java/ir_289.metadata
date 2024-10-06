@@ -1,2 +1,6 @@
-domain.Ride#getRideNumber()Ljava/lang/Integer;
-007650d586147449382c5edb5b772b72
+gauzatuEragiketaMockBlackTest#testNullUsername()V
+6a99443af961316334e411837edae648
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getBookingFromDriver(Ljava/lang/String;)Ljava/util/List;
-18351c98a96a45660d0f7f6f1b99bea2
+businessLogic.BLFacadeImplementation#close()V
+1b96240654c7b276ec954a89ddd97d54
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>()V
 ==
 close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
-getBookingFromDriver dataAccess.DataAccess#getBookingFromDriver(Ljava/lang/String;)Ljava/util/List;

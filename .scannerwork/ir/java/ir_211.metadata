@@ -1,6 +1,10 @@
-businessLogic.BLFacadeImplementation#getMotaByUsername(Ljava/lang/String;)Ljava/lang/String;
-0b142d33706d180b7e919c8354318219
+BookRideMockWhiteTest#testInsufficientSeats()V
+7b3c5618ae9acdc6cecdb1187e0050cc
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Traveler#instance-init#
 ==
-getMotabyUsername dataAccess.DataAccess#getMotabyUsername(Ljava/lang/String;)Ljava/lang/String;
+setMoney domain.User#setMoney(D)V
 close dataAccess.DataAccess#close()V
+getnPlaces domain.Ride#getnPlaces()I
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
 open dataAccess.DataAccess#open()V

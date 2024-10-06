@@ -1,17 +1,15 @@
 
-)domain.Car#getModeloa()Ljava/lang/String;Y
-O/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/domain/Car.java, ,("1*˜
-1-	 -(c
-a
--	 -(
-%0java.lang.String"__id*7
+7gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;[
+Q/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/gui/AdminGUI.java (("1*±
+1	 (v
+t
+	 (
+%0businessLogic.BLFacade"__id*D
 
-__unknown_file (*
-
-domain.Car"	
-modeloa"$
-- -(
-
-%0java.lang.StringB
-
-domain.CarH
+__unknown_file ((*&
+gui.AdminGUI"
+appFacadeInterface"*
+ (
+
+%0businessLogic.BLFacadeB"
+gui.AdminGUIH

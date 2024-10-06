@@ -1,18 +1,42 @@
 
->businessLogic.BLFacadeImplementation#getAlert(I)Ldomain/Alert;u
-i/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/businessLogic/BLFacadeImplementation.javaœ œ("1*ì
+[businessLogic.BLFacadeImplementation#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;u
+i/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/businessLogic/BLFacadeImplementation.java÷ ÷(("startingBlock*”
+startingBlock
+÷( ÷(9‘
+Ž
+
+ö ö(
+
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+usernamejava.lang.String^
+\
+
+÷0 ÷(8
+usernamejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+1*Ì
 1
- (‡
+ø ø(‡
 „
 
- (
+ø ø(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
- (
+ø ø(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -21,51 +45,52 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-ž ž(
+ù ù(!
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerÀ½
+	dbManager’
 
-ž ž(+
-%3domain.Alert"/dataAccess.DataAccess#getAlert(I)Ldomain/Alert;*9
+ù ù(>
+%3java.util.List"LdataAccess.DataAccess#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*"
+%2dataAccess.DataAccess*:
 
-__unknown_file (
-""2getAlert(I)Y
-W
+__unknown_file (
+
+usernamejava.lang.String2&getPastBookedRides(Ljava/lang/String;)a
+_
 
-ž ž(,
-adomain.Alert"__id*0
+ù ù(?
+ridesjava.util.List"__id*2
 
-__unknown_file (
-
-%3domain.Alert‡
+__unknown_file (
+
+%3java.util.List‡
 „
 
-Ÿ Ÿ(
+ú ú(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-Ÿ Ÿ(
+ú ú(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"!
+%4dataAccess.DataAccess2close()"'
 
-   (
-
-adomain.Alert: 
-
-__unknown_file (
-""B(&
+û û(
+
+ridesjava.util.List:*
+
+÷) ÷(8
+usernamejava.lang.StringB(&
 $businessLogic.BLFacadeImplementationH

@@ -1,2 +1,6 @@
-domain.Car#getModeloa()Ljava/lang/String;
-ec92bc264c3e6671d56e310e1543c4d3
+businessLogic.BLFacadeImplementation#deleteAlert(I)Z
+8690d4e8689afd14eb3871dc6a9c6d07
+==
+close dataAccess.DataAccess#close()V
+deleteAlert dataAccess.DataAccess#deleteAlert(I)Z
+open dataAccess.DataAccess#open()V

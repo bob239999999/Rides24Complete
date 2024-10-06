@@ -1,2 +1,6 @@
-domain.Car#instance-init#
-06b1c0f42b846fc405eb7d67c23e2b39
+businessLogic.BLFacadeImplementation#deleteUser(Ldomain/User;)V
+51e35db13625b64ad963d8f3c4ed8f5f
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+deleteUser dataAccess.DataAccess#deleteUser(Ldomain/User;)V

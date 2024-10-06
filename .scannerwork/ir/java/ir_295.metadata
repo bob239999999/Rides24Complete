@@ -1,2 +1,4 @@
-domain.Ride#getDate()Ljava/util/Date;
-a12c627863350260a99f87b373f3ca22
+gui.AlertakKudeatuGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)V
+65432e30e58ea39535ee375386a40921
+==
+setVisible java.awt.Window#setVisible(Z)V

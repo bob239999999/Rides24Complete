@@ -44,90 +44,93 @@ public class BusinessLogicServer extends JDialog {
 			dialog.setVisible(true);
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		} 
 	}
 
+public class BusinessLogicServer extends JDialog {
+    Logger logger = Logger.getLogger(getClass().getName());
+    private static final long serialVersionUID = 1L;
+    private final JPanel contentPanel = new JPanel();
+    JTextArea textArea;
+    BLFacade server;
+    String service;
 
-	public BusinessLogicServer() {
-		addWindowListener(new WindowAdapter() {
-			@Override
-			public void windowClosed(WindowEvent arg0) {
-				System.exit(1);
-			}
-		});
-		setTitle("BusinessLogicServer: running the business logic");
-		setBounds(100, 100, 486, 209);
-		getContentPane().setLayout(new BorderLayout());
-		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
-		getContentPane().add(contentPanel, BorderLayout.CENTER);
-		contentPanel.setLayout(new BorderLayout(0, 0));
-		{
-			textArea = new JTextArea();
-			contentPanel.add(textArea);
-		}
-		{
-			JPanel buttonPane = new JPanel();
-			buttonPane.setLayout(new FlowLayout(FlowLayout.RIGHT));
-			getContentPane().add(buttonPane, BorderLayout.SOUTH);
-			{
-				JButton okButton = new JButton("OK");
-				okButton.addActionListener(new ActionListener() {
-					public void actionPerformed(ActionEvent e) {
-						textArea.append("\n\n\nClosing the server... ");
-					    
-							//server.close();
-						
-						System.exit(1);
-					}
-				});
-				okButton.setActionCommand("OK");
-				buttonPane.add(okButton);
-				getRootPane().setDefaultButton(okButton);
-			}
-			{
-				JButton cancelButton = new JButton("Cancel");
-				cancelButton.setActionCommand("Cancel");
-				buttonPane.add(cancelButton);
-			}
-		}
-		
-		ConfigXML c=ConfigXML.getInstance();
+    public static void main(String[] args) {
+        try {
+            BusinessLogicServer dialog = new BusinessLogicServer();
+            dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+            dialog.setVisible(true);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
-		if (c.isBusinessLogicLocal()) {
-			textArea.append("\nERROR, the business logic is configured as local");
-		}
-		else {
-		try {
+    public BusinessLogicServer() {
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosed(WindowEvent arg0) {
+                System.exit(1);
+            }
+        });
+        setTitle("BusinessLogicServer: running the business logic");
+        setBounds(100, 100, 486, 209);
+        getContentPane().setLayout(new BorderLayout());
+        contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+        getContentPane().add(contentPanel, BorderLayout.CENTER);
+        contentPanel.setLayout(new BorderLayout(0, 0));
+        
+        textArea = new JTextArea();
+        contentPanel.add(textArea);
+        
+        // Extracted button creation into a method
+        createButtons();
 
-			try{
-				
-				if (!c.isDatabaseLocal()) {
-					System.out.println("\nWARNING: Please be sure ObjectdbManagerServer is launched\n           in machine: "+c.getDatabaseNode()+" port: "+c.getDatabasePort()+"\n");	
-				}
-				
-				service= "http://"+c.getBusinessLogicNode() +":"+ c.getBusinessLogicPort()+"/ws/"+c.getBusinessLogicName();
-				
-				Endpoint.publish(service, new BLFacadeImplementation());
-				
-				
-			}
-			catch (Exception e) {
-				System.out.println("Error in BusinessLogicServer: "+e.toString());
-				textArea.append("\nYou should have not launched DBManagerServer...\n");
-				textArea.append("\n\nOr maybe there is a BusinessLogicServer already launched...\n");
-				throw e;
-			}
-			
-			textArea.append("Running service at:\n\t" + service);
-			textArea.append("\n\n\nPress button to exit this server... ");
-			
-		  } catch (Exception e) {
-			textArea.append(e.toString());
-		  }
+        ConfigXML c = ConfigXML.getInstance();
+        if (c.isBusinessLogicLocal()) {
+            textArea.append("\nERROR, the business logic is configured as local");
+        } else {
+            try {
+                if (!c.isDatabaseLocal()) {
+                    logger.info("\nWARNING: Please be sure ObjectdbManagerServer is launched\n           in machine: " + c.getDatabaseNode() + " port: " + c.getDatabasePort() + "\n");
+                }
 
-	  }
+                service = "http://" + c.getBusinessLogicNode() + ":" + c.getBusinessLogicPort() + "/ws/" + c.getBusinessLogicName();
+
+                Endpoint.publish(service, new BLFacadeImplementation());
+                
+                textArea.append("Running service at:\n\t" + service);
+                textArea.append("\n\n\nPress button to exit this server... ");
+
+            } catch (Exception e) {
+                logger.info("Error in BusinessLogicServer: " + e.toString());
+                textArea.append("\nYou should have not launched DBManagerServer...\n");
+                textArea.append("\n\nOr maybe there is a BusinessLogicServer already launched...\n");
+                throw e;
+            }
+        }
+    }
+
+    // Method to create buttons
+    private void createButtons() {
+        JPanel buttonPane = new JPanel();
+        buttonPane.setLayout(new FlowLayout(FlowLayout.RIGHT));
+        getContentPane().add(buttonPane, BorderLayout.SOUTH);
+        
+        JButton okButton = new JButton("OK");
+        okButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                textArea.append("\n\n\nClosing the server... ");
+                //server.close();
+                System.exit(1);
+            }
+        });
+        okButton.setActionCommand("OK");
+        buttonPane.add(okButton);
+        getRootPane().setDefaultButton(okButton);
+        
+        JButton cancelButton = new JButton("Cancel");
+        cancelButton.setActionCommand("Cancel");
+        buttonPane.add(cancelButton);
+    }
 	}
 }
-
-
-

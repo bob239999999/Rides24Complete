@@ -1,2 +1,7 @@
-gui.KotxeaGehituGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-587a63cadd243394f1330cf4903a3761
+BookRideBDWhiteTest#testSuccesfulBoking()V
+ff5f1d207f59015be69e7867e0e81c51
+==
+getMoney domain.User#getMoney()D
+getnPlaces domain.Ride#getnPlaces()I
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

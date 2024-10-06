@@ -1,2 +1,6 @@
-domain.Car#getMatrikula()Ljava/lang/String;
-8e2302e7ad1a77c307aece02037912ec
+businessLogic.BLFacadeImplementation#updateAlertaAurkituak(Ljava/lang/String;)Z
+b251151ee093e635236e7045a29bdafe
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+updateAlertaAurkituak dataAccess.DataAccess#updateAlertaAurkituak(Ljava/lang/String;)Z

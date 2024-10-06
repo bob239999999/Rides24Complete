@@ -1,4 +1,2 @@
-CreateRideTest#init()V
-33140a865e1991c544090192dc0d6f20
-dataAccess.DataAccess#instance-init#
-dataAccess.DataAccess#<init>(Ljavax/persistence/EntityManager;)V
+CreateRideTest#instance-init#
+9c4d3e4ff232a9ca50ec81135887ca6c

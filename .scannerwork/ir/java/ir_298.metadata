@@ -1,2 +1,4 @@
-domain.Ride#setBetMinimum(I)V
-ae83ac255a57068f8ab1a63f56181b19
+domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V
+c56b46e482539dfcbe77ea2686d5e369
+==
+<init> java.lang.Object#<init>()V

@@ -1,4 +1,2 @@
-domain.Driver#toString()Ljava/lang/String;
-222310c430a8c5a7d8f08fa10973ce9a
-==
-toString domain.User#toString()Ljava/lang/String;
+domain.Driver#getCreatedRides()Ljava/util/List;
+640c8a028a39c5595c67eaf1a5768b93

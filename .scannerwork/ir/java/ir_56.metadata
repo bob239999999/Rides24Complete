@@ -1,5 +1,6 @@
-testOperations.TestDataAccess#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
-588a95728bd9563f4562a1fa1752314b
+testOperations.TestDataAccess#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;
+b30e1a5da9b5f2cd79bb9860474719c8
 ==
-doesRideExists domain.Driver#doesRideExists(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+removeRide domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;
 println java.io.PrintStream#println(Ljava/lang/String;)V
+getCreatedRides domain.Driver#getCreatedRides()Ljava/util/List;

@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#deleteDiscount(Ldomain/Discount;)V
-6c1c75af793aa50cf745d897fb69ebc1
+businessLogic.BLFacadeImplementation#gauzatuEragiketa(Ljava/lang/String;DZ)Z
+d96ced7a40e00f85b936127812c75c3d
 ==
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
-deleteDiscount dataAccess.DataAccess#deleteDiscount(Ldomain/Discount;)V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

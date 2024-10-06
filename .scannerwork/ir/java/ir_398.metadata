@@ -1,2 +1,4 @@
-configuration.ConfigXML#getUser()Ljava/lang/String;
-3c55589d40d5f47666b7032c3764b141
+gui.ErreklamazioakGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+58f227f060f984bed233a2ce669b9867
+==
+setVisible java.awt.Window#setVisible(Z)V

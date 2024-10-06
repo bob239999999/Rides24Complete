@@ -1,2 +1,2 @@
-gui.ErreserbaOnartuGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-d53d0eb07d346dc857a3b30d934422eb
+gui.ErreserbaOnartuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+6e2c6a03888017ece9f0c6ec5f71038f

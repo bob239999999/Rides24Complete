@@ -1,4 +1,2 @@
-gui.FindRidesGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V
-f84070e64b9f51dedbfb7b13597529bb
-==
-setVisible java.awt.Window#setVisible(Z)V
+gui.BezeroGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+002adcae9986fb4abe835cf4f2061cdf

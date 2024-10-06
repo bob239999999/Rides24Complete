@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#isAdded(Ljava/lang/String;Ljava/lang/String;)Z
-13a0d167e09e6ad83c67f2968e4bfd61
+businessLogic.BLFacadeImplementation#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z
+b3646e93e1a0f9e6178a4db8add70c97
 ==
 close dataAccess.DataAccess#close()V
-isAdded dataAccess.DataAccess#isAdded(Ljava/lang/String;Ljava/lang/String;)Z
+isRegistered dataAccess.DataAccess#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z
 open dataAccess.DataAccess#open()V

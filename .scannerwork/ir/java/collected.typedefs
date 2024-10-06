@@ -80,12 +80,15 @@ updateUser0dataAccess.DataAccess#updateUser(Ldomain/User;)Vjava.lang.Object 
 removeAlert,domain.Traveler#removeAlert(Ldomain/Alert;)V9
 	setAlerts,domain.Traveler#setAlerts(Ljava/util/List;)VC
 setBookedRides1domain.Traveler#setBookedRides(Ljava/util/List;)V8
-toString,domain.Traveler#toString()Ljava/lang/String;java.io.Serializabledomain.Userƒ
+toString,domain.Traveler#toString()Ljava/lang/String;java.io.Serializabledomain.User«
 testOperations.TestDataAccess1
 <init>'testOperations.TestDataAccess#<init>()Vž
 addDriverWithRideˆtestOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;/
 close&testOperations.TestDataAccess#close()Vo
-createDriver_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;M
+createDriver_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;F
+
+createUser8testOperations.TestDataAccess#createUser(Ldomain/User;)Z^
+eliminarUsuarioDirectoDtestOperations.TestDataAccess#eliminarUsuarioDirecto(Ldomain/User;)VM
 existDriver>testOperations.TestDataAccess#existDriver(Ljava/lang/String;)Z}
 	existRideptestOperations.TestDataAccess#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z-
 open%testOperations.TestDataAccess#open()VO
@@ -172,7 +175,13 @@ removeRide[domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/u
 setMota(domain.User#setMota(Ljava/lang/String;)V;
 setPassword,domain.User#setPassword(Ljava/lang/String;)V;
 setUsername,domain.User#setUsername(Ljava/lang/String;)V4
-toString(domain.User#toString()Ljava/lang/String;java.io.Serializablejava.lang.ObjectÚ
+toString(domain.User#toString()Ljava/lang/String;java.io.Serializablejava.lang.Object¼
+gauzatuEragiketaBDWhiteTest/
+<init>%gauzatuEragiketaBDWhiteTest#<init>()VU
+testDepositToExistingUser8gauzatuEragiketaBDWhiteTest#testDepositToExistingUser()VK
+testUserDoesNotExist3gauzatuEragiketaBDWhiteTest#testUserDoesNotExist()V[
+testWithdrawFromExistingUser;gauzatuEragiketaBDWhiteTest#testWithdrawFromExistingUser()VY
+testWithdrawMoreThanBalance:gauzatuEragiketaBDWhiteTest#testWithdrawMoreThanBalance()Vjava.lang.ObjectÚ
 gui.RegisterGUI#
 <init>gui.RegisterGUI#<init>()VN
 getBusinessLogic:gui.RegisterGUI#getBusinessLogic()LbusinessLogic/BLFacade;k
@@ -220,7 +229,15 @@ removeRide€testOperations.TestBusinessLogic#removeRide(Ljava/lang/String;Ljava
 gui.AlertaAurkituakGUI<
 <init>2gui.AlertaAurkituakGUI#<init>(Ljava/lang/String;)Vp
 closeButton_actionPerformedQgui.AlertaAurkituakGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)VX
-setBussinessLogicCgui.AlertaAurkituakGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrameâ
+setBussinessLogicCgui.AlertaAurkituakGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame®
+gauzatuEragiketaMockWhiteTest1
+<init>'gauzatuEragiketaMockWhiteTest#<init>()V-
+init%gauzatuEragiketaMockWhiteTest#init()V5
+tearDown)gauzatuEragiketaMockWhiteTest#tearDown()VW
+testDepositToExistingUser:gauzatuEragiketaMockWhiteTest#testDepositToExistingUser()VM
+testUserDoesNotExist5gauzatuEragiketaMockWhiteTest#testUserDoesNotExist()V]
+testWithdrawFromExistingUser=gauzatuEragiketaMockWhiteTest#testWithdrawFromExistingUser()V[
+testWithdrawMoreThanBalance<gauzatuEragiketaMockWhiteTest#testWithdrawMoreThanBalance()Vjava.lang.Objectâ
 gui.BezeroGUI3
 <init>)gui.BezeroGUI#<init>(Ljava/lang/String;)VL
 getBusinessLogic8gui.BezeroGUI#getBusinessLogic()LbusinessLogic/BLFacade;i
@@ -239,7 +256,17 @@ $exceptions.RideAlreadyExistException8
 setBussinessLogic<gui.TravelerGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFramej
 	pruebaGUI
 <init>pruebaGUI#<init>()V,
-main$pruebaGUI#main([Ljava/lang/String;)Vjava.lang.Object„'
+main$pruebaGUI#main([Ljava/lang/String;)Vjava.lang.ObjectÜ
+BookRideMockWhiteTest)
+<init>BookRideMockWhiteTest#<init>()V%
+initBookRideMockWhiteTest#init()V-
+tearDown!BookRideMockWhiteTest#tearDown()VU
+testDiscountGreaterThanPrice5BookRideMockWhiteTest#testDiscountGreaterThanPrice()VK
+testInsufficientBalance0BookRideMockWhiteTest#testInsufficientBalance()VG
+testInsufficientSeats.BookRideMockWhiteTest#testInsufficientSeats()V;
+testInvalidUser(BookRideMockWhiteTest#testInvalidUser()V?
+testNegativeSeats*BookRideMockWhiteTest#testNegativeSeats()VE
+testSuccessfulBoking-BookRideMockWhiteTest#testSuccessfulBoking()Vjava.lang.Object„'
 $businessLogic.BLFacadeImplementation8
 <init>.businessLogic.BLFacadeImplementation#<init>()VO
 <init>EbusinessLogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)VV
@@ -311,7 +338,25 @@ updateUser?businessLogic.BLFacadeImplementation#updateUser(Ldomain/User;)Vbus
 <init>(gui.AdminGUI#<init>(Ljava/lang/String;)VK
 getBusinessLogic7gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;h
 jButtonClose_actionPerformedHgui.AdminGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VN
-setBussinessLogic9gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrameû
+setBussinessLogic9gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrameà
+BookRideBDWhiteTest'
+<init>BookRideBDWhiteTest#<init>()V%
+setUpBookRideBDWhiteTest#setUp()VS
+testDiscountGreaterThanPrice3BookRideBDWhiteTest#testDiscountGreaterThanPrice()VO
+testDiscountLowerThanPrice1BookRideBDWhiteTest#testDiscountLowerThanPrice()VC
+testInsuficientSeats+BookRideBDWhiteTest#testInsuficientSeats()V9
+testInvalidUser&BookRideBDWhiteTest#testInvalidUser()VA
+testSuccesfulBoking*BookRideBDWhiteTest#testSuccesfulBoking()Vjava.lang.Objectš
+gauzatuEragiketaMockBlackTest1
+<init>'gauzatuEragiketaMockBlackTest#<init>()V-
+init%gauzatuEragiketaMockBlackTest#init()V5
+tearDown)gauzatuEragiketaMockBlackTest#tearDown()VI
+testNegativeAmount3gauzatuEragiketaMockBlackTest#testNegativeAmount()VE
+testNullUsername1gauzatuEragiketaMockBlackTest#testNullUsername()VO
+testUserNotInDatabase6gauzatuEragiketaMockBlackTest#testUserNotInDatabase()VE
+testValidDeposit1gauzatuEragiketaMockBlackTest#testValidDeposit()VG
+testValidWithdraw2gauzatuEragiketaMockBlackTest#testValidWithdraw()V[
+testWithdrawMoreThanBalance<gauzatuEragiketaMockBlackTest#testWithdrawMoreThanBalance()Vjava.lang.Objectû
 gui.AlertakKudeatuGUI;
 <init>1gui.AlertakKudeatuGUI#<init>(Ljava/lang/String;)Vo
 closeButton_actionPerformedPgui.AlertakKudeatuGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)VG
@@ -329,7 +374,21 @@ getModeloa)domain.Car#getModeloa()Ljava/lang/String;3
 setEserlekuakdomain.Car#setEserlekuak(I)V<
 setMatrikula,domain.Car#setMatrikula(Ljava/lang/String;)V8
 
-setModeloa*domain.Car#setModeloa(Ljava/lang/String;)Vjava.io.Serializablejava.lang.Objectð
+setModeloa*domain.Car#setModeloa(Ljava/lang/String;)Vjava.io.Serializablejava.lang.Object¶
+BookRideBDBlackTest'
+<init>BookRideBDBlackTest#<init>()V%
+setUpBookRideBDBlackTest#setUp()V)
+terDownBookRideBDBlackTest#terDown()VS
+testBookingAllAvailableSeats3BookRideBDBlackTest#testBookingAllAvailableSeats()VS
+testDiscountGreaterThanPrice3BookRideBDBlackTest#testDiscountGreaterThanPrice()VS
+testInsufficientSeatsBooking3BookRideBDBlackTest#testInsufficientSeatsBooking()VU
+testInsuficientBalanceBooking4BookRideBDBlackTest#testInsuficientBalanceBooking()VG
+testInvalidUserBooking-BookRideBDBlackTest#testInvalidUserBooking()VK
+testNegativeSeatsBooking/BookRideBDBlackTest#testNegativeSeatsBooking()V;
+testValidBooking'BookRideBDBlackTest#testValidBooking()VK
+testValidDiscountBooking/BookRideBDBlackTest#testValidDiscountBooking()VW
+testValidRequestedSeatsBooking5BookRideBDBlackTest#testValidRequestedSeatsBooking()VC
+testZeroSeatsBooking+BookRideBDBlackTest#testZeroSeatsBooking()Vjava.lang.Objectð
 domain.MovementC
 <init>9domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V@
 getEragiketa0domain.Movement#getEragiketa()Ljava/lang/String;!
@@ -452,7 +511,25 @@ paintAgaingui.MainGUI#paintAgain()VM
 test3CreateRideBDWhiteTest#test3()V'
 test4CreateRideBDWhiteTest#test4()V'
 test5CreateRideBDWhiteTest#test5()V'
-test6CreateRideBDWhiteTest#test6()Vjava.lang.Objectß
+test6CreateRideBDWhiteTest#test6()Vjava.lang.Object¤
+gauzatuEragiketaBDBlackTest/
+<init>%gauzatuEragiketaBDBlackTest#<init>()VG
+testNegativeAmount1gauzatuEragiketaBDBlackTest#testNegativeAmount()VC
+testNullUsername/gauzatuEragiketaBDBlackTest#testNullUsername()VM
+testUserNotInDatabase4gauzatuEragiketaBDBlackTest#testUserNotInDatabase()VC
+testValidDeposit/gauzatuEragiketaBDBlackTest#testValidDeposit()VE
+testValidWithdraw0gauzatuEragiketaBDBlackTest#testValidWithdraw()VY
+testWithdrawMoreThanBalance:gauzatuEragiketaBDBlackTest#testWithdrawMoreThanBalance()Vjava.lang.ObjectÜ
+BookRideMockBlackTest)
+<init>BookRideMockBlackTest#<init>()V%
+initBookRideMockBlackTest#init()V-
+tearDown!BookRideMockBlackTest#tearDown()VU
+testDiscountGreaterThanPrice5BookRideMockBlackTest#testDiscountGreaterThanPrice()VK
+testInsufficientBalance0BookRideMockBlackTest#testInsufficientBalance()VG
+testInsufficientSeats.BookRideMockBlackTest#testInsufficientSeats()V;
+testInvalidUser(BookRideMockBlackTest#testInvalidUser()V?
+testNegativeSeats*BookRideMockBlackTest#testNegativeSeats()VE
+testSuccessfulBoking-BookRideMockBlackTest#testSuccessfulBoking()Vjava.lang.Objectß
 domain.Complaint{
 <init>qdomain.Complaint#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)VB
 getAurkeztua2domain.Complaint#getAurkeztua()Ljava/lang/Boolean;;

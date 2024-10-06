@@ -1,2 +1,2 @@
-configuration.ConfigXML#getLocale()Ljava/lang/String;
-4c73d04def2be1c82feae9ae2915aa8b
+gui.ErreklamazioakGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+e8e2892b83ca287e757ce1090db21bfa

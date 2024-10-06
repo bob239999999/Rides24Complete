@@ -1,2 +1,2 @@
-configuration.ConfigXML#isDatabaseLocal()Z
-e48cf2109959cf78152f772365e81f97
+domain.Booking#<init>(Ldomain/Ride;Ldomain/Traveler;I)V
+a1ef2687edda75e3e8c2f675943ae4a6

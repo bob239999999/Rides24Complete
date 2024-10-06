@@ -1,4 +1,6 @@
-gui.AdminGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-e31cd9e6def4c5e8c7ec81d3e10a01a4
+businessLogic.BLFacadeImplementation#getAllDiscounts()Ljava/util/List;
+febfb3095fab803a041996b9d54fc420
 ==
-setVisible java.awt.Window#setVisible(Z)V
+getAllDiscounts dataAccess.DataAccess#getAllDiscounts()Ljava/util/List;
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

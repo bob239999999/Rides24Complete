@@ -1,2 +1,6 @@
-gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-9e10a56356a7b1dc7d7706f01de0852c
+businessLogic.BLFacadeImplementation#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)Z
+4c16ebea84f8be6af2edfb191dfcd9aa
+==
+erreklamazioaBidali dataAccess.DataAccess#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)Z
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

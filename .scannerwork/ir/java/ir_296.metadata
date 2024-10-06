@@ -1,2 +1,16 @@
-domain.Ride#setDate(Ljava/util/Date;)V
-3d9ccf9699c498c8cbac0f060462f079
+gui.AlertakKudeatuGUI#refreshTable(Ljava/lang/String;)V
+fa079323f5def2e8a11f173b5bc78c56
+java.text.SimpleDateFormat#<init>(Ljava/lang/String;)V
+java.text.SimpleDateFormat#instance-init#
+java.text.DateFormat#format(Ljava/util/Date;)Ljava/lang/String;
+==
+getAlertNumber domain.Alert#getAlertNumber()Ljava/lang/Integer;
+getAlertsByUsername businessLogic.BLFacade#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
+addRow javax.swing.table.DefaultTableModel#addRow([Ljava/lang/Object;)V
+isActive domain.Alert#isActive()Z
+getModel javax.swing.JTable#getModel()Ljavax/swing/table/TableModel;
+setRowCount javax.swing.table.DefaultTableModel#setRowCount(I)V
+getTo domain.Alert#getTo()Ljava/lang/String;
+isFound domain.Alert#isFound()Z
+getDate domain.Alert#getDate()Ljava/util/Date;
+getFrom domain.Alert#getFrom()Ljava/lang/String;

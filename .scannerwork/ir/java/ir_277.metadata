@@ -1,2 +1,6 @@
-domain.Movement#setKopurua(D)V
-3209efb0e4d7c26e845fe41beff95a7a
+BookRideBDWhiteTest#testInvalidUser()V
+93f9e2c7b60e259e01d768e9a57ed789
+==
+close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

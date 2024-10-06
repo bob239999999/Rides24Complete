@@ -1,0 +1,6 @@
+gauzatuEragiketaBDBlackTest#testUserNotInDatabase()V
+732ab0372558f8cbde985c5f1e44e2f6
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

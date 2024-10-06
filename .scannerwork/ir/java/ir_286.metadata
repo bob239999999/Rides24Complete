@@ -1,4 +1,10 @@
-gui.KotxeakKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-33279dfa6fbde0b9b50521f576914b59
+gauzatuEragiketaMockBlackTest#testValidDeposit()V
+f9c241e5cc41ed2d59b0748070af616a
+domain.User#instance-init#
+domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 ==
-setVisible java.awt.Window#setVisible(Z)V
+setMoney domain.User#setMoney(D)V
+getMoney domain.User#getMoney()D
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

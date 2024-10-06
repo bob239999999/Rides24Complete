@@ -1,2 +1,4 @@
-pruebaGUI#instance-init#
-d7f466da5973d60472494be8d061c157
+exceptions.RideAlreadyExistException#<init>(Ljava/lang/String;)V
+c077acfd1a0446b8123c9a49d1ac82f8
+==
+<init> java.lang.Exception#<init>(Ljava/lang/String;)V

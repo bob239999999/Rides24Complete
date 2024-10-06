@@ -1,2 +1,2 @@
-CreateRideMockBlackTest#tearDown()V
-8fcbd85c54af23ebbf5d454f031a7b3e
+domain.Alert#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Traveler;)V
+4fa83cfd8abe7cde1e69a8723c6123ca

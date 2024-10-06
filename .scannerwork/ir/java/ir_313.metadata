@@ -1,4 +1,5 @@
-gui.ArazoaGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-ce49041d62c0969c66e0cf602d69ae2d
+BookRideBDBlackTest#testInsuficientBalanceBooking()V
+cec3f7dc3a7b66a20f976d97c9b286ec
 ==
-setVisible java.awt.Window#setVisible(Z)V
+setMoney domain.User#setMoney(D)V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z

@@ -1,2 +1,4 @@
-domain.Admin2#setMota(Ljava/lang/String;)V
-288808156efaa566455402e5915d3e5e
+CreateRideMockBlackTest#init()V
+eb0dd6147a107942295963c1ba8b0c0e
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>(Ljavax/persistence/EntityManager;)V

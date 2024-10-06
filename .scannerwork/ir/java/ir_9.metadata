@@ -1,2 +1,2 @@
-dataAccess.DataAccess#getUser(Ljava/lang/String;)Ldomain/User;
-999a1fff69767cf1458527a80b292473
+dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)D
+26175e4b40e3d5950f7ddf1ba7e8ae1f

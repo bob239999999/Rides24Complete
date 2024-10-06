@@ -1,13 +1,4 @@
-testOperations.TestDataAccess#open()V
-f35503eca1d4e0fdfb61a60bbcbb1087
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
+testOperations.TestDataAccess#close()V
+fa4fea0b0439baf9706871077ab36b73
 ==
-getDbFilename configuration.ConfigXML#getDbFilename()Ljava/lang/String;
-put java.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-getUser configuration.ConfigXML#getUser()Ljava/lang/String;
-getPassword configuration.ConfigXML#getPassword()Ljava/lang/String;
 println java.io.PrintStream#println(Ljava/lang/String;)V
-getDatabasePort configuration.ConfigXML#getDatabasePort()I
-isDatabaseLocal configuration.ConfigXML#isDatabaseLocal()Z
-getDatabaseNode configuration.ConfigXML#getDatabaseNode()Ljava/lang/String;

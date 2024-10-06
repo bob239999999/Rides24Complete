@@ -1,2 +1,5 @@
-domain.Alert#instance-init#
-12672521beabdd344946b27ee66fa2f9
+BookRideBDBlackTest#testValidDiscountBooking()V
+9c263ba0312db685de2b5b11d80ce97f
+==
+getMoney domain.User#getMoney()D
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z

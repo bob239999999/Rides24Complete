@@ -1,4 +1,10 @@
-domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLdomain/Driver;)V
-7b997387ccd4fe7373d428516935d257
+gauzatuEragiketaMockBlackTest#testWithdrawMoreThanBalance()V
+2849172f53f4b3d9701a1c50bd255455
+domain.User#instance-init#
+domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 ==
-<init> java.lang.Object#<init>()V
+setMoney domain.User#setMoney(D)V
+getMoney domain.User#getMoney()D
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

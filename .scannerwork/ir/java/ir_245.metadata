@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#deleteAlert(I)Z
-727298515d545fd4bc4d2892da907b7f
+businessLogic.BLFacadeImplementation#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;
+2123f1b6d16f61ea0c61802531a727a3
 ==
 close dataAccess.DataAccess#close()V
-deleteAlert dataAccess.DataAccess#deleteAlert(I)Z
 open dataAccess.DataAccess#open()V
+getRidesByDriver dataAccess.DataAccess#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;

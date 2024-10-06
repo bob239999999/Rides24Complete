@@ -1,2 +1,2 @@
-domain.Admin2#instance-init#
-d87d3340c2b5373506f94cc1f5f55236
+domain.Booking#setStatus(Ljava/lang/String;)V
+c117e528ed69df5ffc9ff995eb779d93

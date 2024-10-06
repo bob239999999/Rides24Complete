@@ -1,0 +1,15 @@
+BookRideMockBlackTest#testDiscountGreaterThanPrice()V
+e6a92ff0d771ee7b83d259011b5c8d0c
+domain.Ride#instance-init#
+java.util.Date#<init>()V
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLdomain/Driver;)V
+domain.Traveler#instance-init#
+domain.Driver#instance-init#
+java.util.Date#instance-init#
+==
+setMoney domain.User#setMoney(D)V
+close dataAccess.DataAccess#close()V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z
+open dataAccess.DataAccess#open()V

@@ -1,2 +1,4 @@
-gui.EgoeraGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-484fdcb973de3587818ddef042b7d59c
+dataAccess.ObjectdbManagerServer#instance-init#
+4a3312eede9b49de0661b3911b71931c
+javax.swing.JPanel#<init>()V
+javax.swing.JPanel#instance-init#

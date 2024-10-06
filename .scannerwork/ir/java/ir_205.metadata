@@ -1,6 +1,7 @@
-businessLogic.BLFacadeImplementation#initializeBD()V
-2e75261ca3385c9bd3a83d069d865aba
+pruebaGUI#main([Ljava/lang/String;)V
+9c18aa21639f365bcf81d406c9b291d6
+gui.MainGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+gui.MainGUI#instance-init#
+gui.MainGUI#<init>()V
 ==
-initializeDB dataAccess.DataAccess#initializeDB()V
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+setVisible java.awt.Window#setVisible(Z)V

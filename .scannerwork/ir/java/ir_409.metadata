@@ -1,2 +1,2 @@
-configuration.ConfigXML#getDatabaseNode()Ljava/lang/String;
-c969ebb216f278564880976c47a89784
+domain.Booking#getStatus()Ljava/lang/String;
+e138d98b8d0ddf961fce19b7be777dc5

@@ -1,4 +1,2 @@
-businessLogic.BusinessLogicServer#instance-init#
-4f5d817bb0a1a9588309eb3b282cc8b9
-javax.swing.JPanel#<init>()V
-javax.swing.JPanel#instance-init#
+gui.ErreklamazioakGUI#instance-init#
+1fd3b2fea097723862e7a4c4a9dcd04a

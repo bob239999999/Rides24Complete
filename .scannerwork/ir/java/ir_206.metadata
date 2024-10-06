@@ -1,6 +1,2 @@
-businessLogic.BLFacadeImplementation#getUser(Ljava/lang/String;)Ldomain/User;
-9139ebe5c026579cb57b38faf3587e19
-==
-getUser dataAccess.DataAccess#getUser(Ljava/lang/String;)Ldomain/User;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+BookRideMockWhiteTest#instance-init#
+7bae66fd366ba749d5f651a4de13235b

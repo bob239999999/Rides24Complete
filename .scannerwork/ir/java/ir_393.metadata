@@ -1,4 +1,8 @@
-gui.MoneyGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-16f5aecce67c8b7652147a3b6a5b018b
+gui.MainGUI#paintAgain()V
+cd3f23f4821066d939d698fce22f53aa
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
 ==
-setVisible java.awt.Window#setVisible(Z)V
+setText javax.swing.JLabel#setText(Ljava/lang/String;)V
+setText javax.swing.AbstractButton#setText(Ljava/lang/String;)V
+setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V

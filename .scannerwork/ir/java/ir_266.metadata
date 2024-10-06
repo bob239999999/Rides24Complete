@@ -1,2 +1,6 @@
-domain.Car#setModeloa(Ljava/lang/String;)V
-30aa24240dc558339bd8a2f9aced2d48
+businessLogic.BLFacadeImplementation#getComplaintsByBook(Ldomain/Booking;)Ldomain/Complaint;
+103b5f2588e62bc401d40dd827666f38
+==
+getComplaintsByBook dataAccess.DataAccess#getComplaintsByBook(Ldomain/Booking;)Ldomain/Complaint;
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

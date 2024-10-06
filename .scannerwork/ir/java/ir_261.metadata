@@ -1,2 +1,6 @@
-domain.Car#getDriver()Ldomain/Driver;
-e06d7869ab114843bae4ff4afcc23948
+businessLogic.BLFacadeImplementation#getAlert(I)Ldomain/Alert;
+22b9a358615ae96a1f86730b82ceb983
+==
+close dataAccess.DataAccess#close()V
+getAlert dataAccess.DataAccess#getAlert(I)Ldomain/Alert;
+open dataAccess.DataAccess#open()V

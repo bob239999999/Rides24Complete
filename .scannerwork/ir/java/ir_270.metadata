@@ -1,2 +1,2 @@
-domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V
-51447fc7e6b09c5dbe2c23bc2580683d
+gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+9e10a56356a7b1dc7d7706f01de0852c

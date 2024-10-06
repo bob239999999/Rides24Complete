@@ -1,2 +1,9 @@
-domain.Complaint#setAurkeztua(Ljava/lang/Boolean;)V
-37accb281932274e52d3a94ef7428772
+configuration.UtilDate#firstDayMonth(Ljava/util/Date;)Ljava/util/Date;
+ee80a0923682798d5001b214fa2d96f2
+java.util.Calendar#getInstance()Ljava/util/Calendar;
+java.util.TimeZone#getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
+java.util.Calendar#setTime(Ljava/util/Date;)V
+java.util.Calendar#getTime()Ljava/util/Date;
+==
+setTimeZone java.util.Calendar#setTimeZone(Ljava/util/TimeZone;)V
+set java.util.Calendar#set(II)V

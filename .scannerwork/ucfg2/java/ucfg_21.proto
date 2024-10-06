@@ -1,10 +1,10 @@
 
 HdataAccess.DataAccess#getBookedRides(Ljava/lang/String;)Ljava/util/List;f
-Z/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/dataAccess/DataAccess.javaµ µ($"1*Á
+Z/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/dataAccess/DataAccess.javaÁ Á($"1*Á
 1
-¶ ¶(‚ÿ
+Â Â(‚ÿ
 
-· ·('
+Ã Ã('
 %0domain.Traveler"FdataAccess.DataAccess#getTraveler(Ljava/lang/String;)Ldomain/Traveler;*5
 
 __unknown_file (
@@ -15,24 +15,24 @@ Z/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/dataAccess/Data
 usernamejava.lang.String2getTraveler(Ljava/lang/String;)b
 `
 
-· ·((
+Ã Ã((
 travdomain.Traveler"__id*3
 
 __unknown_file (
 
 %0domain.Traveler 
 
-¹	 ¹(
+Å	 Å(
 %1java.util.List"0domain.Traveler#getBookedRides()Ljava/util/List;*5
 
 __unknown_file (
 
 travdomain.Traveler2getBookedRides()"$
 
-¹ ¹(
+Å Å(
 
 %1java.util.List:*
 
-µ% µ(4
+Á% Á(4
 usernamejava.lang.StringB
 dataAccess.DataAccessH

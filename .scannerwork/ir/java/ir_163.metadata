@@ -1,2 +1,2 @@
-gui.EgoeraGUI#instance-init#
-a92795d548632d27f3b7b4e084c82eb7
+testOperations.TestBusinessLogic#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;
+77edd820ddfd54c3134bd02f873053d4

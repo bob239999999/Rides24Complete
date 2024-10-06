@@ -1,2 +1,4 @@
-gui.AlertaAurkituakGUI#instance-init#
-cb8dd22e4ac4e79e003b436e2177c34f
+CreateRideTest#init()V
+33140a865e1991c544090192dc0d6f20
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>(Ljavax/persistence/EntityManager;)V

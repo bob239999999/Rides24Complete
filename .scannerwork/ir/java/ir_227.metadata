@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#addCar(Ljava/lang/String;Ldomain/Car;)Z
-c05723436f0a34e893f906a3a7f5e223
+businessLogic.BLFacadeImplementation#getActualMoney(Ljava/lang/String;)D
+d3307cb25141773031db41e5189ea2de
 ==
-addCar dataAccess.DataAccess#addCar(Ljava/lang/String;Ldomain/Car;)Z
+getActualMoney dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)D
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

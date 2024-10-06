@@ -1,2 +1,4 @@
-gui.ArazoaGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-1b82ad44735ced1bf857faf0dc7c2687
+BookRideBDBlackTest#testValidBooking()V
+376b67bff44224305d7c5de1331b1553
+==
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z

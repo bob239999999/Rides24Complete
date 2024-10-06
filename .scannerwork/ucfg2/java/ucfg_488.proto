@@ -1,15 +1,7 @@
 
-5configuration.ConfigXML#getLocale()Ljava/lang/String;f
-\/Users/maximilianoaraujogalan/git/Rides24Complete/src/main/java/configuration/ConfigXML.java1 1("1*¤
-12	 2(o
-m
-2	 2(
-%0java.lang.String"__id*C
-
-__unknown_file ('*%
-configuration.ConfigXML"
-locale"$
-2 2(
-
-%0java.lang.StringB
-configuration.ConfigXMLH
+(__sonar_lambda_5$CreateRideMockBlackTestf
+\/Users/maximilianoaraujogalan/git/Rides24Complete/src/test/java/CreateRideMockBlackTest.java0 0(R"1*!
+10 0(("
+0 0(R
+""B
+	!Unknown!

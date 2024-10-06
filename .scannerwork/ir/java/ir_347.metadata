@@ -1,2 +1,2 @@
-domain.Booking#instance-init#
-4ce6755f1b2471688ca20ca01d868b81
+domain.Ride#getDate()Ljava/util/Date;
+a12c627863350260a99f87b373f3ca22

@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
-b1b24a95af31de5f98df0bce8a1e061d
+businessLogic.BLFacadeImplementation#updateTraveler(Ldomain/Traveler;)V
+d3ed6261dc88a0ae63d289239e521d93
 ==
-getAlertsByUsername dataAccess.DataAccess#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
+updateTraveler dataAccess.DataAccess#updateTraveler(Ldomain/Traveler;)V

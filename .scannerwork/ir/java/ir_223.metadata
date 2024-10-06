@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateBooking(Ldomain/Booking;)V
-0043a910062164a938100967f0af7d8a
+businessLogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
+73b937b3076541a1dd229b24bfcae9d8
 ==
+getThisMonthDatesWithRides dataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
-updateBooking dataAccess.DataAccess#updateBooking(Ldomain/Booking;)V
 open dataAccess.DataAccess#open()V

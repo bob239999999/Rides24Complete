@@ -1,2 +1,9 @@
-domain.Ride#setRideNumber(Ljava/lang/Integer;)V
-15acef1fbb31597b7c2bc7a117048f9a
+gauzatuEragiketaMockBlackTest#testNegativeAmount()V
+4bc17bfe5719fe477e730431e9969fa5
+domain.User#instance-init#
+domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+==
+setMoney domain.User#setMoney(D)V
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

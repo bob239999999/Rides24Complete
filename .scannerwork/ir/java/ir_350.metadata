@@ -1,2 +1,2 @@
-domain.Booking#setBookNumber(I)V
-3fa70dbe0774cfe259386bac0b188455
+domain.Ride#setBetMinimum(I)V
+ae83ac255a57068f8ab1a63f56181b19

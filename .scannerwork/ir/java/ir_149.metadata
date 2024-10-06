@@ -1,2 +1,4 @@
-gui.BidaiakKudeatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-2b692c99ba5f472d26fd93d94d0cd53c
+gui.MovementsGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+9461422338b687e7f453863b1dfd277d
+==
+setVisible java.awt.Window#setVisible(Z)V

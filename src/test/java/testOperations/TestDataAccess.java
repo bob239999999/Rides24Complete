@@ -64,8 +64,9 @@ public class TestDataAccess {
 			db.remove(d);
 			db.getTransaction().commit();
 			return true;
-		} else 
-		return false;
+		} else {
+			return false;
+		}
     }
 	public Driver createDriver(String name, String pass) {
 		System.out.println(">> TestDataAccess: addDriver");

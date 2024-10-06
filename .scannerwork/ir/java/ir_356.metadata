@@ -1,2 +1,2 @@
-domain.Booking#setSeats(I)V
-e3b48c5572c04dfd7d72e43c9ef03fcd
+domain.Ride#setBookings(Ljava/util/List;)V
+51e3fb5ad019bff8b5fe1b699277bbe2

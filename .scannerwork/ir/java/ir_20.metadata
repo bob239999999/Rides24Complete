@@ -1,5 +1,2 @@
-dataAccess.DataAccess#getDiscount(Ljava/lang/String;)Ldomain/Discount;
-68a823f8b7717b7f5d6e1209fbdc7239
-==
-isEmpty java.util.List#isEmpty()Z
-get java.util.List#get(I)Ljava/lang/Object;
+dataAccess.DataAccess#getUserList()Ljava/util/List;
+7e9668c2be13ce3bae9f09bf577170e5

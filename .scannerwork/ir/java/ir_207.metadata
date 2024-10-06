@@ -1,6 +1,2 @@
-businessLogic.BLFacadeImplementation#getActualMoney(Ljava/lang/String;)D
-fcd4f38e3e5f45d264ab36a4885531a5
-==
-getActualMoney dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)D
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+BookRideMockWhiteTest#<init>()V
+34b37cba1b54ae64f8773921841449c5

@@ -1,2 +1,2 @@
-domain.Booking#setRide(Ldomain/Ride;)V
-82e15a4bdcb4a578aa94836132b291b1
+domain.Ride#setDriver(Ldomain/Driver;)V
+557b2b25bd3feb08112a3eae6bb3e7fc
