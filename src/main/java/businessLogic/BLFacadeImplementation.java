@@ -1,7 +1,9 @@
 package businessLogic;
 
+
 import java.util.Date;
 import java.util.List;
+
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
@@ -21,16 +23,31 @@ import domain.Complaint;
 import domain.Movement;
 import exceptions.RideMustBeLaterThanTodayException;
 import exceptions.RideAlreadyExistException;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * It implements the business logic as a web service.
  */
+
+
 @WebService(endpointInterface = "businessLogic.BLFacade")
 public class BLFacadeImplementation implements BLFacade {
 	DataAccess dbManager;
+	private static final Logger logger = Logger.getLogger(BLFacadeImplementation.class.getName());
 
+	static {
+        ConsoleHandler handler = new ConsoleHandler();
+        handler.setLevel(Level.INFO);
+        logger.addHandler(handler);
+        logger.setLevel(Level.INFO);
+        logger.setUseParentHandlers(false); // Para evitar duplicar los logs
+    }
 	public BLFacadeImplementation() {
-		System.out.println("Creating BLFacadeImplementation instance");
+		
+	        logger.info("Creating BLFacadeImplementation instance");
+	    
 
 		dbManager = new DataAccess();
 
