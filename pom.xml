@@ -25,12 +25,14 @@
 </repositories>
 
 	<properties>
-		<sonar.organization>bob239999999</sonar.organization>
-  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<sonar.projectKey>bob239999999</sonar.projectKey>
-		<sonar.login>d7c70a3622c72a64b3ba76d6f94feb913e404240</sonar.login>
+	
+	<maven.compiler.target>1.8</maven.compiler.target> 
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<sonar.organization>bob239999999</sonar.organization>
+ 	<sonar.host.url>https://sonarcloud.io</sonar.host.url> 
+ 	<sonar.projectKey>bob239999999</sonar.projectKey> 
+ 	<sonar.login>d7c70a3622c72a64b3ba76d6f94feb913e404240</sonar.login>
+
 	</properties>
 
 
@@ -107,7 +109,7 @@
    			 <scope>test</scope>
 		</dependency>
 			
-
+		
 	</dependencies>
 
 </project>

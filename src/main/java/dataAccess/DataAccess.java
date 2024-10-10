@@ -20,7 +20,7 @@ import configuration.UtilDate;
 import domain.*;
 import exceptions.RideAlreadyExistException;
 import exceptions.RideMustBeLaterThanTodayException;
-import main.java.dataAccess.User;
+
 
 /**
  * It implements the data access to the objectDb database
