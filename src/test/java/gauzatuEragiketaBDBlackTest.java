@@ -8,7 +8,7 @@ import org.junit.Test;
 import dataAccess.DataAccess;
 import domain.User;
 import testOperations.TestDataAccess;
-
+/*Agregando build.yml*/
 public class gauzatuEragiketaBDBlackTest {
 
     // sut: system under test
