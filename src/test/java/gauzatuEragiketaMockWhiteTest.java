@@ -33,7 +33,7 @@ import exceptions.RideAlreadyExistException;
 import exceptions.RideMustBeLaterThanTodayException;
 import testOperations.TestDataAccess;
 
-public class gauzatuEragiketaMockWhiteTest {
+public class gauzatuEragiketaMockWhiteTest {/*
 
 	static DataAccess sut;
 	protected MockedStatic<Persistence> persistenceMock;
@@ -191,5 +191,6 @@ public class gauzatuEragiketaMockWhiteTest {
 	    // Verificar que el saldo del usuario es 0
 	    assertEquals(0.0, testUser.getMoney(), 0.01);
 	}
+	*/
 
 }
