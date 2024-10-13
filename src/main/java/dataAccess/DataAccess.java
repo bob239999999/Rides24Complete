@@ -390,6 +390,7 @@ public class DataAccess {
 		return travelerCount > 0 || driverCount > 0 || isAdmin;
 	}
 
+	/*
 	public Driver getDriver(String erab) {
 		TypedQuery<Driver> query = db.createQuery("SELECT d FROM Driver d WHERE d.username = :username", Driver.class);
 		query.setParameter("username", erab);
@@ -400,7 +401,7 @@ public class DataAccess {
 			return resultList.get(0);
 		}
 	}
-
+	 */
 	public Traveler getTraveler(String erab) {
 		TypedQuery<Traveler> query = db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username",
 				Traveler.class);
@@ -452,7 +453,7 @@ public class DataAccess {
 	public boolean addDriver(String username, String password) {
 		try {
 			db.getTransaction().begin();
-			Driver existingDriver = getDriver(username);
+			Driver existingDriver = getDriverByUsername(username);
 			Traveler existingTraveler = getTraveler(username);
 			if (existingDriver != null || existingTraveler != null) {
 				return false;
@@ -473,7 +474,7 @@ public class DataAccess {
 		try {
 			db.getTransaction().begin();
 
-			Driver existingDriver = getDriver(username);
+			Driver existingDriver = getDriverByUsername(username);
 			Traveler existingTraveler = getTraveler(username);
 			if (existingDriver != null || existingTraveler != null) {
 				return false;
@@ -489,6 +490,7 @@ public class DataAccess {
 			return false;
 		}
 	}
+	
 
 	public boolean gauzatuEragiketa(String username, double amount, boolean deposit) {
 		try {
@@ -659,7 +661,7 @@ public class DataAccess {
 			return null;
 		}
 	}
-
+/*
 	public void cancelRide(Ride ride) {
 		try {
 			db.getTransaction().begin();
@@ -692,6 +694,57 @@ public class DataAccess {
 			e.printStackTrace();
 		}
 	}
+	*/
+	public void cancelRide(Ride ride) {
+	    db.getTransaction().begin();
+	    rejectRideBookings(ride);
+	    deactivateRide(ride);
+	    db.getTransaction().commit();
+	}
+	/*
+	private void rejectRideBookings(Ride ride) {
+	    for (Booking booking : ride.getBookings()) {
+	        if (isBookingEligibleForRefund(booking)) {
+	            processRefund(booking);
+	        }
+	        booking.setStatus("Rejected");
+	        db.merge(booking);
+	    }
+	}
+	*/
+	private void rejectRideBookings(Ride ride) {
+	    for (Booking booking : ride.getBookings()) {
+	        rejectBooking(booking);
+	    }
+	}
+
+	private void rejectBooking(Booking booking) {
+	    if (isBookingEligibleForRefund(booking)) {
+	        processRefund(booking);
+	    }
+	    booking.setStatus("Rejected");
+	    db.merge(booking);
+	}
+
+	
+	private boolean isBookingEligibleForRefund(Booking booking) {
+	    return booking.getStatus().equals("Accepted") || booking.getStatus().equals("NotDefined");
+	}
+
+	private void processRefund(Booking booking) {
+	    double price = booking.prezioaKalkulatu();
+	    Traveler traveler = booking.getTraveler();
+	    traveler.setIzoztatutakoDirua(traveler.getIzoztatutakoDirua() - price);
+	    traveler.setMoney(traveler.getMoney() + price);
+	    db.merge(traveler);
+	    addMovement(traveler, "BookDeny", price);
+	}
+
+	private void deactivateRide(Ride ride) {
+	    ride.setActive(false);
+	    db.merge(ride);
+	}
+
 
 	public List<Ride> getRidesByDriver(String username) {
 		try {
@@ -724,7 +777,7 @@ public class DataAccess {
 			boolean b = isAdded(username, kotxe.getMatrikula());
 			if (!b) {
 				db.getTransaction().begin();
-				Driver dri = getDriver(username);
+				Driver dri = getDriverByUsername(username);
 				dri.addCar(kotxe);
 				db.persist(dri);
 				db.getTransaction().commit();
@@ -739,13 +792,16 @@ public class DataAccess {
 
 	public boolean isAdded(String username, String matr) {
 		boolean era = false;
-		for (Car kotxe : getDriver(username).getCars()) {
+		for (Car kotxe : getDriverByUsername(username).getCars()) {
 			if (kotxe.getMatrikula().equals(matr)) {
 				era = true;
 			}
 		}
 		return era;
 	}
+
+
+
 
 	public boolean erreklamazioaBidali(String nor, String nori, Date gaur, Booking booking, String textua,
 			boolean aurk) {
@@ -773,7 +829,7 @@ public class DataAccess {
 			db.getTransaction().rollback();
 		}
 	}
-
+  /*
 	public Car getKotxeByMatrikula(String matrikula) {
 		TypedQuery<Car> query = db.createQuery("SELECT k FROM Car k WHERE k.matrikula = :matrikula", Car.class);
 		query.setParameter("matrikula", matrikula);
@@ -783,6 +839,22 @@ public class DataAccess {
 		} else {
 			return resultList.get(0);
 		}
+	}
+*/
+
+	public <T> T getEntityByField(Class<T> entityClass, String fieldName, String fieldValue) {
+	    TypedQuery<T> query = db.createQuery(
+	        "SELECT e FROM " + entityClass.getSimpleName() + " e WHERE e." + fieldName + " = :" + fieldName, entityClass);
+	    query.setParameter(fieldName, fieldValue);
+	    return query.getSingleResult();
+	}
+
+	public Car getKotxeByMatrikula(String matrikula) {
+	    return getEntityByField(Car.class, "matrikula", matrikula);
+	}
+
+	public Driver getDriverByUsername(String username) {
+	    return getEntityByField(Driver.class, "username", username);
 	}
 
 	public void createDiscount(Discount di) {
@@ -840,7 +912,7 @@ public class DataAccess {
 			return resultList.get(0);
 		}
 	}
-
+/*
 	public void deleteCar(Car car) {
 		try {
 			db.getTransaction().begin();
@@ -857,7 +929,31 @@ public class DataAccess {
 			db.getTransaction().rollback();
 		}
 	}
+*/
+	public void deleteCar(Car car) {
+	    db.getTransaction().begin();
+	    try {
+	        Car managedCar = db.merge(car);
+	        removeCarFromDriver(managedCar);
+	        db.remove(managedCar);
+	        db.getTransaction().commit();
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        if (db.getTransaction().isActive()) {
+	            db.getTransaction().rollback();
+	        }
+	    }
+	}
 
+	private void removeCarFromDriver(Car car) {
+	    Driver driver = car.getDriver(); 
+	    if (driver != null) {
+	        driver.removeCar(car); 
+	        db.merge(driver);
+	    }
+	}
+
+	
 	public List<User> getUserList() {
 		TypedQuery<User> query = db.createQuery("SELECT u FROM User u", User.class);
 		return query.getResultList();
@@ -872,7 +968,7 @@ public class DataAccess {
 						cancelRide(ri);
 					}
 				}
-				Driver d = getDriver(us.getUsername());
+				Driver d = getDriverByUsername(us.getUsername());
 				List<Car> cl = d.getCars();
 				if (cl != null) {
 					for (int i = cl.size() - 1; i >= 0; i--) {
