@@ -19,7 +19,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
-public class gauzatuEragiketaMockBlackTest {/*
+public class gauzatuEragiketaMockBlackTest {
 
     static DataAccess sut;
     protected MockedStatic<Persistence> persistenceMock;
@@ -194,6 +194,6 @@ public class gauzatuEragiketaMockBlackTest {/*
 
         sut.close();
     }
-    */
+    
 }
 

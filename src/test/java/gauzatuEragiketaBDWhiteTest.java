@@ -15,7 +15,7 @@ import dataAccess.DataAccess;
 import domain.User;
 import testOperations.TestDataAccess;
 
-public class gauzatuEragiketaBDWhiteTest {/*
+public class gauzatuEragiketaBDWhiteTest {
 
     // sut: system under test
     static DataAccess sut = new DataAccess();
@@ -178,6 +178,6 @@ public class gauzatuEragiketaBDWhiteTest {/*
             }
         }
     }
-    */
+    
 }
 

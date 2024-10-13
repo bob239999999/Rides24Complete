@@ -10,7 +10,7 @@ import domain.User;
 import testOperations.TestDataAccess;
 /*Agregando build.yml*/
 public class gauzatuEragiketaBDBlackTest {
-	/*
+	
 
     // sut: system under test
     static DataAccess sut = new DataAccess();
@@ -20,9 +20,10 @@ public class gauzatuEragiketaBDBlackTest {
 
     @Test
     
+    /*
      Caso 1: El usuario existe, se realiza un depósito válido.
      * Cubriendo clases 1,2,3,4
-    
+    */
     
     public void testValidDeposit() {
         String username = "testUser";
@@ -167,7 +168,7 @@ public class gauzatuEragiketaBDBlackTest {
             sut.open();
             testDA.open();
 
-            /*No vale la pena crear el usuario en la base datos
+            //No vale la pena crear el usuario en la base datos
             
             // Verificamos si el usuario ya existe
             testUser = sut.getUser(username);
@@ -188,7 +189,7 @@ public class gauzatuEragiketaBDBlackTest {
 
             /*Tendría que regresar false ya que ni siquiera podria encontrar el username
              * en la DB
-             * Si la implementación de getUser es correcta 
+             * Si la implementación de getUser es correcta */
             sut.close();
             testDA.close();
          
@@ -202,7 +203,7 @@ public class gauzatuEragiketaBDBlackTest {
     //quieres retirar, esto por las leyes de los signos.
     
     
-    /*Defecto encontrado no devuelve lo esperado
+    /*Defecto encontrado no devuelve lo esperado*/
     public void testNegativeAmount() {
     	
     	
@@ -234,7 +235,7 @@ public class gauzatuEragiketaBDBlackTest {
                 assertFalse(result);
 
                 /*Aqui ya no vale verificar 
-                 * el valor del dinero ya que tiene que ir a false directamente/*
+                 * el valor del dinero ya que tiene que ir a false directamente*/
                  
                 sut.close();
                 testDA.close();
@@ -264,5 +265,5 @@ public class gauzatuEragiketaBDBlackTest {
 
         sut.close();
     }
-    */
+    
 }
