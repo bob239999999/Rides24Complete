@@ -409,7 +409,7 @@ public class DataAccess {
 		return travelerCount > 0 || driverCount > 0 || isAdmin;
 	}
 
-	/*
+	
 	public Driver getDriver(String erab) {
 		TypedQuery<Driver> query = db.createQuery("SELECT d FROM Driver d WHERE d.username = :username", Driver.class);
 		query.setParameter("username", erab);
@@ -420,7 +420,7 @@ public class DataAccess {
 			return resultList.get(0);
 		}
 	}
-	 */
+	 
 	public Traveler getTraveler(String erab) {
 		TypedQuery<Traveler> query = db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username",
 				Traveler.class);
