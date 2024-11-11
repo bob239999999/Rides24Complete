@@ -23,7 +23,7 @@ import exceptions.RideMustBeLaterThanTodayException;
 
 
 /**
- * It implements the data access to the objectDb database
+ * It implements the data access to the objectDb database.
  */
 public class DataAccess {
 	private EntityManager db;

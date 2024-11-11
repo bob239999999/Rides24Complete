@@ -23,6 +23,8 @@ import domain.Driver;
 import domain.Complaint;
 import domain.Movement;
 import exceptions.RideMustBeLaterThanTodayException;
+import iterator.ExtendedIterator;
+import iterator.DepartingCitiesIterator;
 import exceptions.RideAlreadyExistException;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
@@ -78,6 +80,14 @@ public class BLFacadeImplementation implements BLFacade {
 
 		return departLocations;
 
+	}
+	
+	@WebMethod
+	public ExtendedIterator<String> getDepartingCitiesIterator() {
+	    // Reutilizamos el método existente para obtener las ciudades
+	    List<String> cities = getDepartCities();
+	    // Creamos y devolvemos el iterador
+	    return new DepartingCitiesIterator(cities);
 	}
 
 	/**
